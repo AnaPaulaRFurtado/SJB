@@ -99,7 +99,13 @@ nav a {
   padding: 6px 12px;
   border-radius: 6px;
   white-space: nowrap;
+  outline: none;            
+  scroll-margin-top: 80px;   
+  
+nav a:focus {
+  outline: none;
 }
+
 nav a:hover {
   background: var(--hover);
 }
