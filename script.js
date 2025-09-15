@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
-
+  
   document.querySelectorAll(".tab-btn").forEach(button => {
     button.addEventListener("click", () => {
       const tabId = button.dataset.tab;
@@ -10,14 +10,4 @@ document.addEventListener('DOMContentLoaded', () => {
       if (el) el.classList.add("active");
     });
   });
-
-
-  const navLinks = document.querySelectorAll("nav a");
-  navLinks.forEach(link => {
-    link.addEventListener("click", () => {
-      navLinks.forEach(a => a.classList.remove("active"));
-      link.classList.add("active");
-      setTimeout(() => link.blur(), 50);
-    });
-  });
-});
+})
