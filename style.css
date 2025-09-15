@@ -65,7 +65,7 @@ header {
 
 header img {
   position: absolute;
-  left: 20px;  
+  left: 20px;
   height: 50px;
 }
 
@@ -73,7 +73,9 @@ header h1 {
   margin: 0;
   font-size: 22px;
   line-height: 1.2;
+  padding-left: 60px; /* <<< garante espaço pro título não colar no logo */
 }
+
 
 /* ===== MENU ===== */
 nav {
