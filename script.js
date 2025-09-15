@@ -1,4 +1,3 @@
-
 document.querySelectorAll(".tab-btn").forEach(button => {
   button.addEventListener("click", () => {
     const tabId = button.dataset.tab;
@@ -7,6 +6,8 @@ document.querySelectorAll(".tab-btn").forEach(button => {
     document.querySelectorAll(".tab-content").forEach(tab => tab.classList.remove("active"));
 
     button.classList.add("active");
-    document.getElementById(tabId).classList.add("active");
+    const el = document.getElementById(tabId);
+    if (el) el.classList.add("active");
   });
 });
+
