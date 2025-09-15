@@ -80,9 +80,9 @@ header h1 {
 /* ===== MENU ===== */
 nav {
   display: flex;
+  flex-wrap: wrap;   /* <<< permite quebrar linha */
   gap: 10px;
   justify-content: center;
-  overflow-x: auto;
   padding: 10px;
   background: white;
   border-bottom: 2px solid #eee;
@@ -90,6 +90,7 @@ nav {
   top: 0;
   z-index: 100;
 }
+
 nav a {
   text-decoration: none;
   color: var(--primary);
