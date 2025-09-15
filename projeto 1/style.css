@@ -58,14 +58,14 @@ header {
   padding: 15px 20px;
   display: flex;
   align-items: center;
-  justify-content: center;
-  position: relative;
+  justify-content: center; 
+  position: relative;     
   text-align: center;
 }
 
 header img {
   position: absolute;
-  left: 20px;
+  left: 20px;  
   height: 50px;
 }
 
@@ -73,19 +73,6 @@ header h1 {
   margin: 0;
   font-size: 22px;
   line-height: 1.2;
-}
-
-/* Botão menu sanduíche */
-.menu-toggle {
-  display: none;
-  position: absolute;
-  right: 15px;
-  top: 15px;
-  background: none;
-  border: none;
-  font-size: 26px;
-  color: white;
-  cursor: pointer;
 }
 
 /* ===== MENU ===== */
@@ -101,7 +88,6 @@ nav {
   top: 0;
   z-index: 100;
 }
-
 nav a {
   text-decoration: none;
   color: var(--primary);
@@ -110,7 +96,6 @@ nav a {
   border-radius: 6px;
   white-space: nowrap;
 }
-
 nav a:hover {
   background: var(--hover);
 }
@@ -163,25 +148,27 @@ section h2 {
   display: block;
 }
 
-/* ===== GRID DE CARDS ===== */
+
 .cards-grid {
   display: flex;
   flex-wrap: wrap;
-  gap: 18px;
+  gap: 18px;              
 }
+
 
 .cards-grid .card {
   flex: 0 0 calc(50% - 9px);
   box-sizing: border-box;
-  display: flex;
+  display: flex;            
   flex-direction: column;
   gap: 8px 10px;
   background: #fff;
   border: 1px solid #ddd;
   border-radius: 6px;
   padding: 12px;
-  min-height: auto;
+  min-height: auto;      
 }
+
 
 @media (max-width: 900px) {
   .cards-grid .card {
@@ -189,7 +176,7 @@ section h2 {
   }
 }
 
-/* ===== CARD ===== */
+/* ===== CARD (estilos adicionais mantidos) ===== */
 .card h3 {
   margin: 0;
   color: var(--primary);
@@ -202,14 +189,17 @@ section h2 {
   margin: 0;
 }
 
+/* links/botões alinhados ao final do card */
 .card .links {
-  margin-top: 6px;
+  margin-top: 6px;       
   display: flex;
   gap: 8px;
   flex-wrap: wrap;
 }
 
 .card .links a {
+  margin-top: 0;
+  margin-right: 0;
   display: inline-flex;
   align-items: center;
   gap: 6px;
@@ -253,34 +243,4 @@ footer {
   background: #fafafa;
   border-top: 1px solid #ddd;
   margin-top: 30px;
-}
-
-/* ===== MOBILE (menu sanduíche) ===== */
-@media (max-width: 768px) {
-  nav {
-    display: none;
-    flex-direction: column;
-    gap: 0;
-    background: white;
-    padding: 10px;
-  }
-
-  nav a {
-    display: block;
-    padding: 10px;
-    border-bottom: 1px solid #eee;
-  }
-
-  nav.show {
-    display: flex;
-  }
-
-  .menu-toggle {
-    display: block;
-  }
-
-  header {
-    justify-content: center;
-    padding-right: 50px; /* espaço pro botão */
-  }
 }
