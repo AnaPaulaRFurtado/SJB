@@ -58,14 +58,14 @@ header {
   padding: 15px 20px;
   display: flex;
   align-items: center;
-  justify-content: center; /* centraliza o conteúdo */
-  position: relative;      /* permite fixar a logo */
+  justify-content: center; 
+  position: relative;     
   text-align: center;
 }
 
 header img {
   position: absolute;
-  left: 20px;  /* logo sempre no canto */
+  left: 20px;  
   height: 50px;
 }
 
@@ -99,13 +99,11 @@ nav a:hover {
   background: var(--hover);
 }
 
-/* garanta que cor visitada não mude */
 nav a:link,
 nav a:visited {
   color: var(--primary);
 }
 
-/* destaque para página ativa (adicione class="active" no HTML onde necessário) */
 nav a.active {
   background: var(--secondary);
   color: white !important;
@@ -149,29 +147,28 @@ section h2 {
   display: block;
 }
 
-/* ===== CARDS (OVERRIDE SIMPLES: 2 POR LINHA) ===== */
-/* solução simples usando flex — evita mexer no HTML */
+
 .cards-grid {
   display: flex;
   flex-wrap: wrap;
-  gap: 18px;                /* espaçamento entre cards */
+  gap: 18px;              
 }
 
-/* cada card ocupa metade da linha (ajuste do gap já considerado) */
+
 .cards-grid .card {
-  flex: 0 0 calc(50% - 9px); /* 50% da largura menos metade do gap */
+  flex: 0 0 calc(50% - 9px);
   box-sizing: border-box;
-  display: flex;            /* para usar margin-top: auto nos botões */
+  display: flex;            
   flex-direction: column;
   gap: 8px 10px;
   background: #fff;
   border: 1px solid #ddd;
   border-radius: 6px;
   padding: 12px;
-  min-height: auto;        /* ajuste conforme precisar */
+  min-height: auto;      
 }
 
-/* mobile: 1 coluna */
+
 @media (max-width: 900px) {
   .cards-grid .card {
     flex: 0 0 100%;
@@ -193,7 +190,7 @@ section h2 {
 
 /* links/botões alinhados ao final do card */
 .card .links {
-  margin-top: 6px;         /* só um espaço pequeno abaixo do título */
+  margin-top: 6px;       
   display: flex;
   gap: 8px;
   flex-wrap: wrap;
