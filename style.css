@@ -84,7 +84,6 @@ nav {
   position: sticky;
   top: 0;
   z-index: 100;
-  overflow: visible;
 }
 
 nav a {
@@ -93,8 +92,8 @@ nav a {
   font-weight: bold;
   padding: 8px 12px;
   border-radius: 6px;
-  white-space: normal;
-  flex-shrink: 0;
+  flex: 0 1 auto;
+  min-width: 0;
 }
 
 nav a:hover {
