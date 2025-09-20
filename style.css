@@ -2,42 +2,40 @@
   --bg: #f4f6f9;
   --text: #333;
   --hover: #eee;
-  --primary: #333;   /* padrão */
-  --secondary: #666; /* padrão */
+  --primary: #333;
+  --secondary: #666;
 }
 
-/* ===== TEMPOS LITÚRGICOS ===== */
 body.tempo-comum {
-  --primary: #1b5e20;   /* verde escuro */
-  --secondary: #43a047; /* verde claro */
+  --primary: #1b5e20;
+  --secondary: #43a047;
 }
 
 body.quaresma {
-  --primary: #4a148c;   /* roxo */
+  --primary: #4a148c;
   --secondary: #7b1fa2;
 }
 
 body.advento {
-  --primary: #6a1b9a;   /* roxo claro */
+  --primary: #6a1b9a;
   --secondary: #9c27b0;
 }
 
 body.natal {
-  --primary: #b71c1c;   /* vermelho natalino */
-  --secondary: #fbc02d; /* dourado */
+  --primary: #b71c1c;
+  --secondary: #fbc02d;
 }
 
 body.pascoa {
-  --primary: #f57c00;   /* laranja */
-  --secondary: #ffb300; /* amarelo */
+  --primary: #f57c00;
+  --secondary: #ffb300;
 }
 
 body.pentecostes {
-  --primary: #b71c1c;   /* vermelho forte */
+  --primary: #b71c1c;
   --secondary: #e53935;
 }
 
-/* ===== BASE ===== */
 *,
 *::before,
 *::after {
@@ -51,15 +49,14 @@ body {
   color: var(--text);
 }
 
-/* ===== HEADER ===== */
 header {
   background: linear-gradient(90deg, var(--primary), var(--secondary));
   color: white;
   padding: 15px 20px;
   display: flex;
   align-items: center;
-  justify-content: center; 
-  position: relative;     
+  justify-content: center;
+  position: relative;
   text-align: center;
 }
 
@@ -73,36 +70,32 @@ header h1 {
   margin: 0;
   font-size: 22px;
   line-height: 1.2;
-  padding-left: 60px; 
+  padding-left: 60px;
 }
 
-
-/* ===== MENU ===== */
 nav {
   display: flex;
-  gap: 10px;
-  justify-content: flex-start; 
-  overflow-x: auto;           
+  flex-wrap: wrap;
+  gap: 8px;
+  justify-content: flex-start;
   padding: 10px;
   background: white;
   border-bottom: 2px solid #eee;
   position: sticky;
   top: 0;
   z-index: 100;
+  overflow: visible;
 }
-
 
 nav a {
   text-decoration: none;
   color: var(--primary);
   font-weight: bold;
-  padding: 6px 12px;
+  padding: 8px 12px;
   border-radius: 6px;
-  white-space: nowrap;
-  outline: none;            
-
+  white-space: normal;
+  flex-shrink: 0;
 }
-
 
 nav a:hover {
   background: var(--hover);
@@ -118,12 +111,19 @@ nav a.active {
   color: white !important;
 }
 
-/* ===== SEÇÕES ===== */
+@media (max-width: 480px) {
+  nav a {
+    padding: 6px 10px;
+    font-size: 14px;
+  }
+}
+
 section {
   max-width: 1000px;
   margin: auto;
   padding: 20px;
 }
+
 section h2 {
   color: var(--primary);
   border-left: 5px solid var(--secondary);
@@ -131,13 +131,13 @@ section h2 {
   margin-bottom: 15px;
 }
 
-/* ===== TABS ===== */
 .tabs {
   display: flex;
   gap: 5px;
   margin-bottom: 10px;
   flex-wrap: wrap;
 }
+
 .tabs button {
   padding: 6px 10px;
   border: none;
@@ -145,38 +145,38 @@ section h2 {
   background: #ddd;
   cursor: pointer;
 }
+
 .tabs button.active {
   background: var(--secondary);
   color: white;
 }
+
 .tab-content {
   display: none;
 }
+
 .tab-content.active {
   display: block;
 }
 
-
 .cards-grid {
   display: flex;
   flex-wrap: wrap;
-  gap: 18px;              
+  gap: 18px;
 }
-
 
 .cards-grid .card {
   flex: 0 0 calc(50% - 9px);
   box-sizing: border-box;
-  display: flex;            
+  display: flex;
   flex-direction: column;
   gap: 8px 10px;
   background: #fff;
   border: 1px solid #ddd;
   border-radius: 6px;
   padding: 12px;
-  min-height: auto;      
+  min-height: auto;
 }
-
 
 @media (max-width: 900px) {
   .cards-grid .card {
@@ -184,22 +184,21 @@ section h2 {
   }
 }
 
-/* ===== CARD (estilos adicionais mantidos) ===== */
 .card h3 {
   margin: 0;
   color: var(--primary);
   font-size: 16px;
   line-height: 1.15;
 }
+
 .card .meta {
   font-size: 14px;
   color: #666;
   margin: 0;
 }
 
-/* links/botões alinhados ao final do card */
 .card .links {
-  margin-top: 6px;       
+  margin-top: 6px;
   display: flex;
   gap: 8px;
   flex-wrap: wrap;
@@ -218,15 +217,16 @@ section h2 {
   border-radius: 6px;
   font-size: 13px;
 }
+
 .card .links a:hover {
   opacity: 0.85;
 }
+
 .card.fixed {
   border-left: 4px solid #f39c12;
   padding-left: 6px;
 }
 
-/* ===== DETALHES ===== */
 .antiphon {
   font-style: italic;
   font-size: 14px;
@@ -236,13 +236,13 @@ section h2 {
   background: #f9f9f9;
   border-left: 3px solid var(--primary);
 }
+
 .suggestion-label {
   font-size: 12px;
   color: #666;
   margin-bottom: 5px;
 }
 
-/* ===== FOOTER ===== */
 footer {
   text-align: center;
   padding: 20px;
