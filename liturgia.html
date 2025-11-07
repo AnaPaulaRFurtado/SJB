@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cantos Litúrgicos - Paróquia São João Batista</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            margin: 0;
+            font-family: "Segoe UI", sans-serif;
+            background-color: #faf7f3;
+            color: #333;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        /* 🌾 Header com marrom escuro e conteúdo centralizado */
+        header {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            background: linear-gradient(90deg, #8b6b3d, #a7844e);
+            color: white;
+            width: 100%;
+            padding: 16px 0 12px 0;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.15);
+        }
+
+        header img.logo {
+            max-width: 80px;
+            height: auto;
+            margin-bottom: 6px;
+        }
+
+        header h1 {
+            font-size: 22px;
+            margin: 0;
+            line-height: 1.3;
+            text-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+        }
+
+        /* 📸 Imagem da Paróquia ampliada e com melhor enquadramento */
+        .imagem-paroquia {
+            position: relative;
+            width: 100%;
+            max-height: 420px;
+            overflow: hidden;
+            border-bottom: 3px solid #8b6b3d;
+        }
+
+        .imagem-paroquia img {
+            width: 100%;
+            height: auto;
+            display: block;
+            object-fit: cover;
+            object-position: center 40%;
+            /* foca no centro da fachada */
+            background-color: #fff;
+            transform: scale(1.05);
+            /* leve ampliação da imagem */
+        }
+
+        /* Gradiente de transição da imagem para o fundo */
+        .imagem-paroquia::after {
+            content: "";
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            height: 80px;
+            background: linear-gradient(to bottom, rgba(250, 247, 243, 0) 0%, #faf7f3 100%);
+        }
+
+        section {
+            text-align: center;
+            padding: 40px 20px;
+        }
+
+        section h2 {
+            color: #5a4121;
+            margin-bottom: 20px;
+            font-size: 20px;
+        }
+
+        .menu-liturgico {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 14px;
+            width: 100%;
+            max-width: 340px;
+            margin: 0 auto;
+        }
+
+        .menu-liturgico a {
+            background: #ffffff;
+            color: #5a4121;
+            text-decoration: none;
+            text-align: center;
+            width: 100%;
+            padding: 14px 0;
+            font-weight: bold;
+            border-radius: 8px;
+            transition: 0.3s;
+            border: 2px solid #8b6b3d;
+            box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .menu-liturgico a:hover {
+            background: #8b6b3d;
+            color: white;
+            transform: translateY(-3px);
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            color: #6b5c3b;
+            font-size: 14px;
+            background: #f5efe6;
+            border-top: 1px solid #ddd;
+            margin-top: auto;
+            width: 100%;
+        }
+
+        /* 📱 Responsividade */
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 20px;
+            }
+
+            .imagem-paroquia {
+                max-height: 350px;
+            }
+
+            .imagem-paroquia img {
+                object-position: center 45%;
+                transform: scale(1.08);
+            }
+
+            section {
+                padding: 25px 15px;
+            }
+        }
+
+
+            @media (max-width: 480px) {
+                header {
+                    padding: 12px 0 8px 0;
+                }
+
+                header img.logo {
+                    max-width: 65px;
+                    margin-bottom: 4px;
+                }
+
+                header h1 {
+                    font-size: 18px;
+                    line-height: 1.2;
+                }
+
+                .imagem-paroquia {
+                    max-height: 320px;
+                }
+
+                .imagem-paroquia img {
+                    transform: scale(1.1);
+                    object-position: center 40%;
+                }
+            }
+    </style>
+</head>
+
+<body>
+    <header>
+        <img src="logo.png" class="logo" alt="Logo Paróquia São João Batista">
+        <h1>Cantos Litúrgicos<br>Paróquia São João Batista</h1>
+    </header>
+
+    <!-- 📸 Imagem da fachada -->
+    <div class="imagem-paroquia">
+        <img src="paroquia.png" alt="Fachada da Paróquia São João Batista">
+    </div>
+
+    <section>
+        <h2>Selecione o Tempo Litúrgico</h2>
+
+        <div class="menu-liturgico">
+            <a href="advento.html">Tempo do Advento</a>
+            <a href="natal.html">Tempo do Natal</a>
+            <a href="quaresma.html">Tempo da Quaresma</a>
+            <a href="pascoa.html">Tempo da Páscoa</a>
+            <a href="index.html">Tempo Comum</a>
+            <a href="marianas.html">Marianas</a>
+            <a href="santos.html">Comum dos Santos</a>
+        </div>
+    </section>
+
+    <footer>
+        É preciso que Ele cresça e que eu diminua. <i>São João 3,30</i>
+    </footer>
+</body>
+
+</html>
