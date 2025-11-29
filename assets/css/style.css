@@ -408,5 +408,17 @@ section {
   opacity: 0.45;
   pointer-events: none;
 }
+.links.especial {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
 
+.links.especial a {
+  padding: 8px 16px; /* controla o tamanho */
+  min-width: 90px; /* largura mínima */
+  text-align: center;
+  font-size: 14px;
+  border-radius: 8px;
+}
 
