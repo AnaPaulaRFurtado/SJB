@@ -22,8 +22,8 @@ body.advento {
 }
 
 body.natal {
-  --primary: #b71c1c;
-  --secondary: #fbc02d;
+  --primary: #F9C44C;  /* Amarelo dourado suave */
+  --secondary: #D99E34; /* Dourado mais profundo */
 }
 
 body.pascoa {
