@@ -22,9 +22,15 @@ body.advento {
 }
 
 body.natal {
-  --primary: #F9C44C;  /* Amarelo dourado suave */
-  --secondary: #D99E34; /* Dourado mais profundo */
+  --primary: #daa520 ;  
+ --secondary: #c08f14 ; 
 }
+
+body.natal section h2 {
+  color: #000;
+  border-left-color: var(--secondary);
+}
+
 
 body.pascoa {
   --primary: #f57c00;
@@ -389,23 +395,23 @@ section {
   font-weight: 400 !important;
 }
 
-.menu-advento {
+.menu-tempo {
   display: flex;
-  flex-direction: column;   
-  gap: 15px;             
+  flex-direction: column;
+  gap: 15px;
   width: 100%;
   margin-top: 25px;
   padding: 0 10px;
 }
 
-.menu-advento .menu-btn {
-  width: 100%;             
+.menu-tempo .menu-btn {
+  width: 100%;
   text-align: center;
   padding: 16px;
   box-sizing: border-box;
 }
 
-.menu-advento .bloqueado {
+.menu-tempo .bloqueado {
   opacity: 0.45;
   pointer-events: none;
 }
@@ -442,7 +448,7 @@ section {
   font-weight: bold;
   border-radius: 8px;
   border: none;
-  text-align: center;   /* ⭐ Centraliza o texto */
+  text-align: center;   
   cursor: pointer;
 }
 
