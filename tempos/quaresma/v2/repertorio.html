@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>1º Domingo da Quaresma</title>
+
+  <link rel="stylesheet" href="../../../assets/css/style.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+
+<body class="quaresma">
+
+  <header>
+    <img src="../../../assets/img/logo.png" alt="Logo da Paróquia">
+    <h1>Paróquia São João Batista</h1>
+    <a href="domingo1.html" class="btn-voltar-header">⟵</a>
+  </header>
+
+  <main class="pagina-repertorio">
+
+    <h1 class="titulo-repertorio"> Meu Repertório⭐</h1>
+
+    <div class="form-repertorio">
+
+      <input type="text" id="ministerio" placeholder="Nome do Ministério">
+
+      <div class="linha-data-hora">
+        <input type="date" id="data-missa">
+        <input type="time" id="hora-missa">
+      </div>
+
+    </div>
+
+    <hr>
+
+    <div id="lista-repertorio"></div>
+
+    <div class="botoes-repertorio">
+      <button id="btn-salvar-repertorio" class="btn-salvar">
+        💾 Salvar
+      </button>
+
+      <button id="btn-compartilhar" class="btn-whatsapp">
+        <i class="fa-brands fa-whatsapp"></i>
+      </button>
+    </div>
+
+    <hr>
+
+    <h2>📂 Repertórios Salvos</h2>
+    <div id="lista-repertorios-salvos"></div>
+  </main>
+
+  <footer>Projeto desenvolvido por Ana Paula Furtado © 2026</footer>
+
+  <script src="repertorio.js"></script>
+  <script src="../../../assets/js/script.js"></script>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-X8M86HRN99"></script>
+  <script src="../../../assets/js/analytics.js"></script>
+</body>
+
+</html>

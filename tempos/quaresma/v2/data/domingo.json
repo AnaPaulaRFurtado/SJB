@@ -1,0 +1,150 @@
+{
+  "domingo": 1,
+  "tempo": "Quaresma",
+  "titulo": "1º Domingo da Quaresma",
+  "antifonas": {
+    "entrada": "Ele me invocará e eu o ouvirei; hei de livrá-lo e glorificá-lo, vou saciá-lo com longos dias. Cf. Sl 90,15-16",
+    "comunhao": "Não só de pão vive o homem, mas de toda palavra que sai da boca de Deus. Cf. Mt 4,4 \n ou\n O Senhor te cobrirá com sua sombra, sob suas asas encontrarás abrigo. Cf. Sl 90,4"
+  },
+  "partes": [
+    {
+      "id": "refrao_meditativo",
+      "nome": "Refrão Meditativo",
+      "musicas": [
+        "chagas_abertas",
+        "misericordioso_e_deus",
+        "quem_podera"
+      ]
+    },
+    {
+      "id": "entrada",
+      "nome": "Entrada",
+      "musicas": [
+        "senhor_eis_aqui_o_teu_povo",
+        "lembra_senhor_o_teu_amor",
+        "volta_teu_povo_ao_teu_senhor",
+        "eis_o_tempo_de_conversao",
+        "pecador_agora_e_tempo"
+      ]
+    },
+    {
+      "id": "ato_penitencial",
+      "nome": "Ato Penitencial",
+      "musicas": [
+        "senhor_que_nos_mandastes_perdoar",
+        "novo_coracao",
+        "senhor_que_viestes_cancao_nova", 
+        "muito_perdoais", 
+        "confesso_a_deus_recado",
+        "tende_compaixao",
+        "kyrie_jmj",
+        "vossa_misericordia"
+      ]
+    },
+    {
+      "id": "refrao_palavra",
+      "nome": "Refrão da Palavra",
+      "musicas": [
+        "misericordioso_e_deus",
+        "senhor_que_a_tua_palavra",
+        "que_arda_como_brasa"
+      ]
+    },
+    {
+      "id": "liturgia_palavra",
+      "nome": "Liturgia da Palavra"
+    },
+    {
+      "id": "aclamacao",
+      "nome": "Aclamação",
+      "estrofe": "O homem não vive somente de pão,\nmas de toda palavra da boca de Deus.",
+      "musicas": [
+        "louvor_e_gloria_a_ti_senhor",
+        "louvor_a_vos_o_cristo_rei",
+        "louvor_a_vos_o_cristo"
+      ]
+    },
+    {
+      "id": "ofertorio",
+      "nome": "Ofertório",
+      "musicas": [
+        "o_vosso_coracao_de_pedra",
+        "se_bendito_senhor_para_sempre",
+        ""
+      ]
+    },
+    {
+      "id": "santo",
+      "nome": "Santo",
+      "musicas": [
+        "santo_solene",
+        "o_senhor_e_santo",
+        "hosana_nas_alturas_hosa_a_na",
+        "santo_marco_frisina",
+        "santo_e_adaptado"
+      ]
+    },
+    {
+      "id": "oracao_eucaristica",
+      "nome": "Oração Eucarística",
+      "partes": [
+   {
+      "id": "oe3",
+      "nome": "Oração Eucarística III",
+      "observacao": "Durante todo o tempo da Quaresma será utilizada a Oração Eucarística III com o Mistério da Fé: 'para a salvação do mundo'.",
+      "texto": "Nova Edição\nTexto Oficial da Terceira Edição Típica do Missal Romano\n(1ª Edição, 2023)\n\nPe: O Senhor esteja convosco.\nT: Ele está no meio de nós.\nPe: Corações ao alto.\nT: O nosso coração está em Deus.\nPe: Demos graças ao Senhor, nosso Deus.\nT: É nosso dever e nossa salvação.\n\nPe: Na verdade, vós sois Santo, ó Deus do universo, e tudo o que criastes proclama o vosso louvor, porque, por Jesus Cristo, vosso Filho e Senhor nosso, e pela força do Espírito Santo, dais vida e santidade a todas as coisas e não cessais de reunir para vós um povo que vos ofereça em toda parte, do nascer ao pôr do sol, um sacrifício perfeito.\n\nPe: Por isso, ó Pai, nós vos suplicamos: santificai pelo Espírito Santo as oferendas que vos apresentamos para serem consagradas a fim de que se tornem o Corpo † e o Sangue de vosso Filho, nosso Senhor Jesus Cristo, que nos mandou celebrar estes mistérios.\nT: Enviai o vosso Espírito Santo!\n\nPe: Na noite em que ia ser entregue, Jesus tomou o pão, pronunciou a bênção de ação de graças, partiu e o deu a seus discípulos, dizendo:\nTOMAI, TODOS, E COMEI: ISTO É O MEU CORPO, QUE SERÁ ENTREGUE POR VÓS.\n\nPe: Do mesmo modo, ele tomou em suas mãos o cálice com o vinho, deu-vos graças novamente e o deu a seus discípulos, dizendo:\nTOMAI, TODOS, E BEBEI: ESTE É O CÁLICE DO MEU SANGUE, O SANGUE DA NOVA E ETERNA ALIANÇA, QUE SERÁ DERRAMADO POR VÓS E POR TODOS, PARA REMISSÃO DOS PECADOS. FAZEI ISTO EM MEMÓRIA DE MIM.\n\nMistério da fé para a salvação do mundo!\nT: Salvador do mundo, salvai-nos, vós que nos libertastes pela cruz e ressurreição.\n\nPe: Celebrando agora, ó Pai, o memorial da paixão redentora do vosso Filho, da sua gloriosa ressurreição e ascensão ao céu, e enquanto esperamos sua nova vinda, nós vos oferecemos em ação de graças este sacrifício vivo e santo.\nT: Aceitai, ó Senhor, a nossa oferta!\n\nPe: Olhai com bondade a oblação da vossa Igreja e reconhecei nela o sacrifício que nos reconciliou convosco; concedei que, alimentando-nos com o Corpo e o Sangue do vosso Filho, repletos do Espírito Santo, nos tornemos em Cristo um só corpo e um só espírito.\nT: O Espírito nos una num só corpo!\n\nPe: Que o mesmo Espírito faça de nós uma eterna oferenda para alcançarmos a herança com os vossos eleitos: a santíssima Virgem Maria, Mãe de Deus, São José, seu esposo, os vossos santos Apóstolos e gloriosos Mártires e todos os Santos, que não cessam de interceder por nós na vossa presença.\nT: Fazei de nós uma perfeita oferenda!\n\nPe: Nós vos suplicamos, Senhor, que este sacrifício da nossa reconciliação estenda a paz e a salvação ao mundo inteiro. Confirmai na fé e na caridade a vossa Igreja que caminha neste mundo.\nT: Lembrai-vos, ó Pai, da vossa Igreja!\n\nPe: Acolhei com bondade no vosso reino os nossos irmãos e irmãs que partiram desta vida e todos os que morreram na vossa amizade. Unidos a eles, esperamos também nós saciar-nos eternamente da vossa glória, por Cristo, Senhor nosso.\n\nPe: Por Cristo, com Cristo, e em Cristo, a vós, Deus Pai todo-poderoso, na unidade do Espírito Santo, toda honra e toda glória, por todos os séculos dos séculos.\nT: Amém!"
+}
+  ]
+    },
+    {
+      "id": "doxologia",
+      "nome": "Doxologia",
+      "musicas": [
+        "amem_tradicional",
+        "amem_ta_ta",
+        "amem_shalom",
+        "amem_hudson"
+      ]
+    },
+    {
+      "id": "cordeiro",
+      "nome": "Cordeiro",
+      "musicas": [
+        "cordeiro_I_aurora",
+        "codeiro_II_solene",
+        "oh_cordeiro",
+        "cordeiro_voz_do_peregrino",
+        "oh_cordeiro_II",
+        "cordeiro_matheus_assuncao"
+      ]
+    },
+    {
+      "id": "comunhao",
+      "nome": "Comunhão",
+      "musicas": [
+     "nao_so_de_pao_vive_o_homem",
+     "agora_o_tempo_se_cumpriu"
+      ]
+    },
+    {
+      "id": "pos_comunhao",
+      "nome": "Pós-Comunhão",
+      "musicas": [
+     "amigo_da_cruz",
+     "chagas_abertas",
+     "alma_de_cristo",
+     "alma_de_cristo_shalom"
+      ]
+    },
+    {
+      "id": "final",
+      "nome": "Final",
+      "musicas": [
+        "bendita_e_louvada_seja",
+        "o_povo_de_deus",
+        "eis_o_tempo_de_conversao",
+        "pecador_agora_e_tempo"
+      ]
+    }
+  ]
+}
