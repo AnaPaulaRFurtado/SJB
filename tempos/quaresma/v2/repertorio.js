@@ -170,42 +170,42 @@ Promise.all([
     // COMPARTILHAR WHATSAPP
     // =============================
 
-    btnCompartilhar.addEventListener("click", () => {
+    // btnCompartilhar.addEventListener("click", () => {
 
-      const repertorioAtual = JSON.parse(localStorage.getItem("repertorio")) || [];
+    //   const repertorioAtual = JSON.parse(localStorage.getItem("repertorio")) || [];
 
-      if (repertorioAtual.length === 0) {
-        alert("Adicione músicas antes de compartilhar.");
-        return;
-      }
+    //   if (repertorioAtual.length === 0) {
+    //     alert("Adicione músicas antes de compartilhar.");
+    //     return;
+    //   }
 
-      const ministerio = inputMinisterio.value.trim();
-      const data = formatarDataBR(inputData.value);
-      const hora = inputHora.value;
+    //   const ministerio = inputMinisterio.value.trim();
+    //   const data = formatarDataBR(inputData.value);
+    //   const hora = inputHora.value;
 
-      if (!ministerio || !data || !hora) {
-        alert("Preencha Ministério, Data e Hora antes de compartilhar.");
-        return;
-      }
+    //   if (!ministerio || !data || !hora) {
+    //     alert("Preencha Ministério, Data e Hora antes de compartilhar.");
+    //     return;
+    //   }
 
-      let mensagem = `🎵 REPERTÓRIO DA MISSA\n\n`;
-      mensagem += `📌 Ministério: ${ministerio}\n`;
-      mensagem += `📅 Data: ${data}\n`;
-      mensagem += `⏰ Hora: ${hora}\n\n`;
-      mensagem += `-----------------------------------\n\n`;
+    //   let mensagem = `🎵 REPERTÓRIO DA MISSA\n\n`;
+    //   mensagem += `📌 Ministério: ${ministerio}\n`;
+    //   mensagem += `📅 Data: ${data}\n`;
+    //   mensagem += `⏰ Hora: ${hora}\n\n`;
+    //   mensagem += `-----------------------------------\n\n`;
 
-      repertorioAtual.forEach(item => {
+    //   repertorioAtual.forEach(item => {
 
-        const musica = todasMusicas.find(m => m.id === item.id);
-        if (!musica) return;
+    //     const musica = todasMusicas.find(m => m.id === item.id);
+    //     if (!musica) return;
 
-        mensagem += `${item.parte}: ${musica.titulo} (Tom: ${item.tom})\n`;
-      });
+    //     mensagem += `${item.parte}: ${musica.titulo} (Tom: ${item.tom})\n`;
+    //   });
 
-      const textoCodificado = encodeURIComponent(mensagem);
+    //   const textoCodificado = encodeURIComponent(mensagem);
 
-      window.location.href = `https://wa.me/?text=${textoCodificado}`;
-    });
+    //   window.location.href = `https://wa.me/?text=${textoCodificado}`;
+    // });
 
     // =============================
     // INICIALIZAÇÃO
