@@ -55,6 +55,7 @@ body.marianas {
 
 body {
   margin: 0;
+  height: 100%;
   font-family: "Segoe UI", Arial, sans-serif;
   background: var(--bg);
   color: var(--text);
@@ -138,7 +139,7 @@ nav a.active {
 }
 
 section {
-  max-width: 1000px;
+  max-width: 1100px;
   margin: auto;
   padding: 20px;
 }
@@ -351,24 +352,24 @@ section {
 }
 
 .toggleLetra {
-  background: var(--secondary); ;
+  background: var(--secondary);
   color: white;
   border: none;
-  padding: 8px 12px;
-  border-radius: 6px;
+  padding: 10px 16px;       
+  border-radius: 8px;         
   cursor: pointer;
-  font-size: 14px;
+  font-size: 15px;          
   font-weight: 600;
-  transition: all 0.3s ease;
-  width: fit-content;
+  display: inline-flex;        
+  align-items: center;
+  gap: 6px;                    
+  transition: all 0.25s ease;
 }
 
 .toggleLetra:hover {
-  background: var(--secondary);
   opacity: 0.9;
+  transform: translateY(-1px); /* leve efeito de toque */
 }
-
-/* ===== ESTILO EXCLUSIVO PARA A LITURGIA DA PALAVRA ===== */
 
 #palavra .cards-grid .card {
   max-width: 330px;       
@@ -485,4 +486,419 @@ section {
   cursor: pointer;
   font-size: 14px;
 }
+/* ===== AJUSTES ESPECÍFICOS PARA QUARESMA v2 ===== */
+
+body.quaresma section {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+body.quaresma .menu-vertical {
+  border-bottom: none;
+  background: transparent;
+  padding-top: 0;
+}
+
+body.quaresma .menu-vertical .menu-item {
+  text-align: center;
+  margin-bottom: 6px;
+}
+
+body.quaresma #lista-cantos {
+  margin-top: 20px;
+}
+
+body.quaresma .card {
+  margin-bottom: 16px;
+}
+
+body.quaresma .letra {
+  margin-top: 10px;
+}
+
+.audio-container {
+  margin-top: 10px;
+}
+
+.audio-container audio,
+.audio-container iframe {
+  width: 100%;
+  border-radius: 6px;
+}
+
+.cifra pre {
+  font-family: "Roboto Mono", monospace;
+  font-size: 17px;
+  line-height: 1.4;
+  white-space: pre;
+  margin: 0;
+  background: #fafafa;
+  padding: 1px;
+  border-radius: 6px;
+}
+
+.cifra .chord {
+  color: #e67e22;  
+  font-weight: 600;
+}
+
+.letra p {
+  font-family: "Segoe UI", Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.75;
+  font-weight: 500;
+  color: #111;
+  margin: 2px 0;
+}
+
+.cards-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 18px;
+}
+
+.cards-grid .card {
+  flex: 0 0 calc(50% - 9px);
+}
+
+@media (max-width: 900px) {
+  .cards-grid .card {
+    flex: 0 0 100%;
+  }
+}
+
+.letra p {
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 16px;
+  line-height: 1.7;
+  margin: 2px 0;
+}
+
+/* REFRAO */
+.letra p.refrao {
+  font-weight: 700 !important;
+  font-size: 15px;
+}
+
+/* ESTROFE */
+.letra p.estrofe {
+  font-weight: 500;
+}
+
+/* Espaço entre blocos */
+.letra .espaco {
+  height: 12px;
+}
+.transposicao {
+  margin-bottom: 8px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.transposicao button {
+  background: var(--secondary);
+  color: white;
+  border: none;
+  padding: 4px 10px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.tom-atual {
+  font-weight: bold;
+  color: var(--primary);
+}
+
+.transposicao {
+  margin-bottom: 8px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.btn-imprimir {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: 18px;
+  margin-left: 10px;
+}
+
+.btn-imprimir:hover {
+  transform: scale(1.1);
+}
+
+@media print {
+
+  body * {
+    visibility: hidden;
+  }
+
+  .card.printable,
+  .card.printable * {
+    visibility: visible;
+  }
+
+  .card.printable {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    box-shadow: none !important;
+    border: none !important;
+  }
+
+  .links,
+  .audio-container,
+  .letra,
+  .transposicao {
+    display: none !important;
+  }
+
+  .chord {
+    color: #e67e22 !important;
+    font-weight: bold;
+  }
+
+  pre {
+    font-size: 15px;
+    line-height: 1.5;
+  }
+
+}
+.antiphon {
+  white-space: pre-line;
+  font-size: 1.1rem; 
+  line-height: 1.2;
+}
+.observacao {
+  font-size: 0.85rem;
+  color: #777;
+  margin-top: 4px;
+  font-style: italic;
+}
+/* =========================
+   REPERTÓRIO
+========================= */
+
+.titulo-repertorio {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  margin-top: 20px;
+}
+
+.link-repertorio-menu {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  margin-top: 8px;
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--primary);
+  text-decoration: none;
+  transition: 0.2s ease;
+}
+
+.link-repertorio-menu:hover {
+  color: var(--secondary);
+  text-decoration: underline;
+}
+
+.btn-repertorio {
+  background: #6a1b9a;
+  color: white;
+  border: none;
+  padding: 8px 14px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.btn-repertorio.salvo {
+  background: #2e7d32;
+}
+
+.btn-fixar {
+  background: #fbc02d;
+  border: none;
+  padding: 6px 10px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.btn-fixar.salvo {
+  background: #ff9800;
+}
+
+.btn-compartilhar {
+  background: #2e7d32;
+  color: white;
+  border: none;
+  padding: 12px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+  width: 100%;
+  transition: 0.3s;
+}
+
+.btn-compartilhar:hover {
+  opacity: 0.9;
+}
+
+/* FORM */
+.form-repertorio {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+.linha-data-hora {
+  display: flex;
+  gap: 10px;
+}
+
+.linha-data-hora input {
+  flex: 1;
+  padding: 8px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+}
+
+.botoes-repertorio {
+  display: flex;
+  gap: 10px;
+  margin: 15px 0;
+}
+
+.btn-salvar,
+.btn-whatsapp {
+  flex: 1;
+  padding: 10px;
+  border-radius: 12px;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.btn-salvar {
+  background: #572079;
+  color: white;
+}
+
+.btn-whatsapp {
+  background: #2e7d32;
+  color: white;
+}
+
+.linha-musica {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.btn-abrir {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  color: var(--primary);
+  font-size: 22px;
+  transition: 0.2s ease;
+  padding: 6px;
+  border-radius: 50%;
+}
+
+.btn-abrir:hover {
+  background: rgba(106, 27, 154, 0.08);
+  color: var(--secondary);
+  transform: scale(1.1);
+}
+
+.btn-excluir,
+.btn-remover-musica {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  color: var(--primary); /* usa o roxo do tema */
+  font-size: 22px;
+  transition: 0.2s ease;
+  padding: 6px;
+  border-radius: 50%;
+}
+
+.btn-excluir:hover,
+.btn-remover-musica:hover {
+  background: rgba(106, 27, 154, 0.08); /* halo roxo suave */
+  color: var(--secondary);
+  transform: scale(1.1);
+}
+
+/* REPERTÓRIOS SALVOS */
+.linha-rep-salvo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  font-size: 13px;
+}
+
+.linha-rep-salvo button {
+  border: none;
+  background: transparent;
+  cursor: pointer;
+}
+
+.link-repertorio {
+  display: block;
+  padding: 10px;
+  border-radius: 10px;
+  background: #f5f5f5;
+  margin-bottom: 8px;
+  text-decoration: none;
+  color: #333;
+  font-size: 14px;
+}
+
+@media (max-width: 768px) {
+  .pagina-repertorio {
+    padding: 10px 20px 30px 20px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
