@@ -284,7 +284,7 @@ Promise.all([
           .then(res => res.json())
           .then(data => {
 
-            const domingo = data;// depois automatizamos
+            const domingo = data;
 
             listaCantosEl.innerHTML = "";
 
