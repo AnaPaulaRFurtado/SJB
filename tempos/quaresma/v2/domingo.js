@@ -373,12 +373,16 @@ Promise.all([
 
         let audioHTML = `<p style="font-size:14px;color:#777;">Áudio não disponível</p>`;
         if (musica.audio) {
+
+          const caminhoAudio = `../../../assets/audio/${musica.audio}`;
+
           audioHTML = `
     <audio controls>
-      <source src="${musica.audio}" type="audio/mpeg">
+      <source src="${caminhoAudio}" type="audio/mpeg">
       Seu navegador não suporta áudio.
     </audio>
   `;
+
         } else if (musica.youtubeId) {
           audioHTML = `
           <iframe height="180"

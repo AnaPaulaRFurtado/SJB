@@ -55,7 +55,7 @@
   "tipo": "santo",
   "tempos": ["quaresma"],
   "tom": "E",
-  "audio": "/assets/audio/santo_solene.mp3",
+  "audio": "santo_solene.mp3",
   "letra": "Santo, Santo, Santo Senhor Deus do universo.\nO céu e a terra proclamam Vossa glória.\n\nHosana, hosa-a-na, hosana nas alturas!\nHosana, hosa-a-na, hosana nas alturas!\n\nBendito o que vem em nome do Senhor!\n\nHosana, hosa-a-na, hosana nas alturas!\nHosana, hosa-a-na, hosana nas alturas!",
   "cifra": "E              A              E\nSanto, Santo, Santo Senhor Deus do universo.\n\nE              A              E\nO céu e a terra proclamam Vossa glória.\n\nB        C#m      B     A     E\nHosana, hosa-a-na, hosana nas alturas!\nB        C#m      B     A     E\nHosana, hosa-a-na, hosana nas alturas!\n\nE              A              E\nBendito o que vem em nome do Senhor!\n\nB        C#m      B     A     E\nHosana, hosa-a-na, hosana nas alturas!\nB        C#m      B     A     E\nHosana, hosa-a-na, hosana nas alturas!"
 },
@@ -109,7 +109,7 @@
   "tipo": "doxologia",
   "tempos": ["quaresma"],
   "tom": "D",
-  "audio":"/assets/audio/amem_tradicional.mp3",
+  "audio":"amem_tradicional.mp3",
   "letra": "Amém, Amém, Amém, Amém, Amém",
   "cifra": "D   A   Bm   F#m   G   D/F#   Em   A   D\nAmém, amém, a-a-a-amém!\n\nE   B   G#m   C#m   A   E   F#m   B   E\nAmém, amém, a-a-a-amém!"
 },
@@ -119,7 +119,7 @@
   "tipo": "doxologia",
   "tempos": ["quaresma"],
   "tom": "Bm",
-  "audio":"/assets/audio/amem-ta-ta.mp3",
+  "audio":"amem-ta-ta.mp3",
   "letra": "Amém, Amém, Amém",
   "cifra": "Bm      Bm      Em      D      A      Bm\nA-a-a amém, a-a-a-amém, a-amém, a-amém, a-a-a-amém.\n\nEm      D      A      Bm\nA-amém, a-amém, a-a-a-amém."
 },
@@ -130,7 +130,7 @@
   "tempos": ["quaresma"],
   "tom": "Cm",
   "observacao":"Adaptação Shalom",
-  "audio":"/assets/audio/amem_shalom.mp3",
+  "audio":"amem_shalom.mp3",
   "letra": "Amém, Amém, Amém",
   "cifra": "Cm        G#        D#      A#   B°\nAmém, a-a-mém amém, amém\n\nCm        G#        D#      A#   B°   Cm\nAmém, a-a-mém amém, amém"
 },
@@ -140,7 +140,7 @@
   "tipo": "doxologia",
   "tempos": ["quaresma"],
   "tom": "C",
-  "audio":"/assets/audio/amem_hudson.mp3",
+  "audio":"amem_hudson.mp3",
   "observacao":"Melodia Hudson Leite",
   "letra": "Amém, Amém, Amém",
   "cifra": "C   Em   Am   Em     F   C   Dm   G   C\nA-a-a-amém, A-a-a-amém, A-a-a-amém, A-a-a-amém\n\nD   F#m   Bm   F#m     G   D   Em   A   D\nA-a-a-amém, A-a-a-amém! A-a-a-amém, A-a-a-amém!"
@@ -151,7 +151,7 @@
   "tipo": "cordeiro",
   "tempos": ["quaresma"],
   "tom": "",
-  "audio":"/assets/audio/cordeiro_aurora.mp3",
+  "audio":"cordeiro_aurora.mp3",
   "letra": "Cordeiro de Deus que tirais o pecado do mundo. Tende piedade, tende piedade de nós!\nCordeiro de Deus que tirais o pecado do mundo. Tende piedade, tende piedade de nós!\nCordeiro de Deus que tirais o pecado do mundo. Dai-nos a paz. Dai-nos a vossa paz!",
   "cifra": ""
 },
@@ -162,7 +162,7 @@
   "tempos": ["quaresma"],
   "tom": "Dm",
   "observacao":"Solene",
-  "audio":"/assets/audio/cordeiro_solene.mp3",
+  "audio":"cordeiro_solene.mp3",
   "letra": "Cordeiro de Deus que tirais o pecado do mundo. \nTende piedade piedade de nós!\nCordeiro de Deus que tirais o pecado do mundo. \nTende piedade piedade de nós!\nCordeiro de Deus que tirais o pecado do mundo. \nDai-nos a paz!",
   "cifra": "Dm            C        Dm\nCordeiro de Deus que tirais o pecado do mundo,\nF       C      Dm\nTende piedade de nós!\n\nDm            C        Dm\nCordeiro de Deus que tirais o pecado do mundo,\nF       C      Dm\nTende piedade de nós!\n\nDm            C        Dm\nCordeiro de Deus que tirais o pecado do mundo,\nBb      C      Dm\nDai-nos a paz!"
 },
@@ -172,7 +172,7 @@
   "tipo": "cordeiro",
   "tempos": ["quaresma"],
   "tom": "E",
-  "audio":"/assets/audio/oh_cordeiro_de_deus.mp3",
+  "audio":"oh_cordeiro_de_deus.mp3",
   "letra": "Oh Cordeiro de Deus, que tirais o pecado do mundo,\n\nTende piedade, piedade de nós! (2x)\n\nOh Cordeiro de Deus, que tirais o pecado do mundo,\n\nDai-nos a paz, a vossa paz, Senhor!",
   "cifra": "E        B        A                E\nOh cordeiro de Deus, que tirais o pecado do mundo,\n\nA        C#m      A        B        C#\nTende de piedade, piedade de nós! (2x)\n\nF#       C#       B                C#\nOh cordeiro de Deus, que tirais o pecado do mundo,\n\nB        D#m      B        C#      F#\nDai-nos a paz, a vossa paz, Senhor!"
 },
@@ -183,7 +183,7 @@
   "tipo": "cordeiro",
   "tempos": ["quaresma"],
   "tom": "D",
-  "audio":"/assets/audio/cordeiro_peregrino.mp3",
+  "audio":"cordeiro_peregrino.mp3",
   "letra": "Cordeiro de Deus que tirais o pecado do mundo,\nTende piedade de nós.\n\nCordeiro de Deus que tirais o pecado do mundo,\nTende piedade, piedade de nós!\n\nCordeiro de Deus que tirais o pecado do mundo,\nDai-nos a paz, a vossa paz.",
   "cifra": "D          A        Bm               F#m7\nCordeiro de Deus que tirais o pecado do mundo\nG      D/F#       A\nTende piedade de nós\n\nD          A        Bm               F#m7\nCordeiro de Deus que tirais o pecado do mundo\nG       D/F#     Em        C      A7\nTende piedade, piedade de nós!\n\nD          A        Bm               F#m7\nCordeiro de Deus que tirais o pecado do mundo\nG         D/F#   Em  A   D\nDai-nos a paz, a vossa paz"
 },
