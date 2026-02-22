@@ -150,10 +150,10 @@
   "titulo": "Cordeiro I",
   "tipo": "cordeiro",
   "tempos": ["quaresma"],
-  "tom": "",
+  "tom": "G",
   "audio":"cordeiro_aurora.mp3",
   "letra": "Cordeiro de Deus que tirais o pecado do mundo. Tende piedade, tende piedade de nós!\nCordeiro de Deus que tirais o pecado do mundo. Tende piedade, tende piedade de nós!\nCordeiro de Deus que tirais o pecado do mundo. Dai-nos a paz. Dai-nos a vossa paz!",
-  "cifra": ""
+  "cifra": "G        Am        D        G\nCordeiro de Deus, que tirais o pecado do mundo\nC  Cm      G   Em   Am   D   G   (D)\nTende piedade, tende piedade de nós.\n\nG        Am        D        G\nCordeiro de Deus, que tirais o pecado do mundo\nC  Cm      G   Em   Am   D   G   (D)\nTende piedade, tende piedade de nós.\n\nG        Am        D        G\nCordeiro de Deus, que tirais o pecado do mundo\nC   Cm      G   Em   Am   D   G\nDai-nos a paz, Dai-nos a Vossa paz."
 },
 {
   "id": "codeiro_II_solene",
