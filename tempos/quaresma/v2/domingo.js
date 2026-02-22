@@ -280,11 +280,11 @@ Promise.all([
 
       function renderizarLeituras() {
 
-        fetch("data/domingo.json")
+        fetch("data/liturgiaAnoA.json")
           .then(res => res.json())
           .then(data => {
 
-            const domingo = data;
+            const domingo = data["1domingo_quaresma"];
 
             listaCantosEl.innerHTML = "";
 
