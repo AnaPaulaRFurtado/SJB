@@ -49,6 +49,27 @@
     "cifra": "     D         A\nQue arda como brasa\n      Bm          F#m\nTua palavra nos renove\n     G         D\nEssa chama que a boca\n   G  A   D\nProcla-a-ma",
     "youtubeId": "ushj5sKNvUE"
   },
+  {
+  "id": "fala_que_teu_servo_escuta",
+  "titulo": "Fala que teu servo escuta",
+  "tipo": "refrao_palavra",
+  "tempos": ["quaresma"],
+  "tom": "D",
+  "letra": "{refrao}\nFala, que teu servo escuta.\nFala-me Senhor,\nque teu servo escuta!\nFala-me Senhor,\nque teu servo escuta!\n{/refrao}",
+  "cifra": "D   G                 D    G\nFala, que teu servo escuta.\nD               G\nFala-me Senhor,\n                D     G\nque teu servo escuta!\nD               G\nFala-me Senhor,\n                D     G   D\nque teu servo escuta!",
+  "youtubeId": "1h3C4polBhc"
+},
+{
+  "id": "desca_como_a_chuva",
+  "titulo": "Desça como a chuva",
+  "tipo": "refrao_palavra",
+  "tempos": ["quaresma"],
+  "tom": "Bm",
+  "letra": "{refrao}\nDesça como a chuva\nA Tua Palavra\nQue se espalhe como orvalho\nComo chuvisco na relva\nComo um aguaceiro na grama\nAmém!\n{/refrao}",
+  "cifra": "Bm            Em\nDesça como a chuva\nF#       Bm   Bm7\nA Tua Palavra\n                      Em    A7\nQue se espalhe como orvalho\n                D    Bm\nComo chuvisco na relva\n        C#°         F#\nComo um aguaceiro na grama\n  Bm\nAmém!",
+  "youtubeId": "s4W3bWRvcac"
+},
+
 {
   "id": "santo_solene",
   "titulo": "Santo Solene",
@@ -80,17 +101,6 @@
   "cifra": "[Intro] C  Am  F  G\n\nC             Am\nSanto, Santo, Santo\nF                 G\nSenhor, Deus do universo\nC                Am\nO céu e a terra proclamam\nF       G\nA Vossa glória\n\nC           Am\nHosana nas alturas\nF       G\nHosana\nC           Am\nHosana nas alturas\nF       G\nHosana\nC           Am\nBendito o que vem\nF         G\nEm nome do Senhor\nC           Am\nBendito o que vem\nF         G\nEm nome do Senhor\nC          Am\nHosana nas alturas\nF       G\nHosana\nC          Am\nHosana nas alturas\nF       G\nHosana",
   "youtubeId": "ysj8Sub2q2A"
 },
-{
-  "id": "santo_marco_frisina",
-  "titulo": " Santo, Santo, Santo",
-  "tipo": "santo",
-  "tempos": ["quaresma"],
-  "tom": "D",
-  "observacao":"Santo (L.: MR; M.: Mons. Marco Frisina)",
-  "letra": "Santo, Santo, Santo Senhor Deus do universo.\nO céu e a terra proclamam a vossa glória.\n\n{refrao}\nHosana nas alturas.\nHosana nas alturas.\n{/refrao}\n\nBendito o que vem em nome do Senhor.\n\n{refrao}\nHosana nas alturas.\nHosana nas alturas.\n{/refrao}",
-  "cifra": "[Intro] D G C F A D\n\nD       A      Bm  F#m     G    D        Em    A\nSanto, Santo, Santo Senhor Deus do universo\n   Bm       A      G  D      Bm   E   A\nO céu e a terra proclamam a vossa glória\n   D    A    Bm  F#m    G    D     A D\nHosana nas alturas. Hosana nas alturas\n F#7          Bm  F#7  Bm  G     A\nBendito o que vem em nome do Senhor\n  D    A      Bm  F#m   G    D    A  D\nHosana nas alturas. Hosana nas alturas",
-  "youtubeId": "ZV0aV40a6iI"
-},
 
 {
   "id": "santo_e_adaptado",
@@ -102,6 +112,28 @@
   "letra": "Santo, Santo\nSanto Senhor Deus do universo.\n\nSanto, Santo\nSanto, Senhor Deus do universo.\n\nO céu e a terra proclamam vossa glória.\n\n{refrao}\nHosana, hosana nas alturas.\n{/refrao}\n\nBendito o que vem em nome do Senhor.\n\n{refrao}\nHosana, hosana nas alturas.\nHosana, hosana.\n{/refrao}",
   "cifra": "[Intro] E A D G B E\n\nA  E  F#m  C#m\nSanto, Santo\nD            A          B7  E\nSanto Senhor Deus do universo\n\nA  E  F#m  C#m\nSanto, Santo\nD            A          B7  E\nSanto, Senhor Deus do universo\n\nD         E         A           F#m\nO céu e a terra proclamam vossa glória\nBm      E          A  F#m\nHosana, hosana nas alturas\n\nBm          E     A         F#m\nBendito o que vem em nome do Senhor\nBm      E          A  F#m\nHosana, hosana nas alturas\n\nBm      E  A  A7  Bm     E          A  F#m\nHosana, hosana. Hosana, hosana nas alturas\nBm      E   A\nHosana, hosana",
   "youtubeId":"qM60p0pqJBY"
+},
+{
+  "id": "santo_i_adaptado",
+  "titulo": "Santo I",
+  "tipo": "santo",
+  "tempos": ["quaresma"],
+  "tom": "E",
+  "observacao":"Adaptação Litúrgica - Marcio Gonçalves",
+  "letra": "Santo, santo, santo Senhor.\nSanto, santo, santo Senhor Deus do universo.\n\nO céu e a terra proclamam vossa glória.\nHosana nas alturas. Hosana nas alturas.\n\nBendito o que vem em nome do Senhor.\nHosana nas alturas. Hosana nas alturas.\n\nSanto, santo, santo Senhor.\nSanto, santo, santo Senhor Deus do universo.",
+  "cifra": "E        B        F#m      E\nSanto, santo, santo, Senhor.\nA        E        F#m      E   B\nSanto, santo, santo, Senhor.\n\nE        B        F#m      E   A\nSanto, santo, santo,\nE        F#m      E        B      E\nSenhor Deus do universo.\n\nE        B\nO céu e a terra\nF#m              E\nproclamam vossa glória.\nF#m      E4  E\nHosana nas alturas!\nF#m      E4  E\nHosana nas alturas!\n\nE        B\nBendito o que vem\nF#m              E\nem nome do Senhor.\nF#m      E4  E\nHosana nas alturas!\nF#m      E4  E\nHosana nas alturas!\n\nE        B        F#m      E\nSanto, santo, santo, Senhor.\nA        E        F#m      E   B\nSanto, santo, santo, Senhor.\n\nE        B        F#m      E   A\nSanto, santo, santo,\nE        F#m      E        B      E\nSenhor Deus do universo.",
+  "audio": "santo-adaptado.mp3"
+},
+{
+  "id": "santo_marco_frisina",
+  "titulo": " Santo, Santo, Santo",
+  "tipo": "santo",
+  "tempos": ["quaresma"],
+  "tom": "D",
+  "observacao":"Santo (L.: MR; M.: Mons. Marco Frisina)",
+  "letra": "Santo, Santo, Santo Senhor Deus do universo.\nO céu e a terra proclamam a vossa glória.\n\n{refrao}\nHosana nas alturas.\nHosana nas alturas.\n{/refrao}\n\nBendito o que vem em nome do Senhor.\n\n{refrao}\nHosana nas alturas.\nHosana nas alturas.\n{/refrao}",
+  "cifra": "[Intro] D G C F A D\n\nD       A      Bm  F#m     G    D        Em    A\nSanto, Santo, Santo Senhor Deus do universo\n   Bm       A      G  D      Bm   E   A\nO céu e a terra proclamam a vossa glória\n   D    A    Bm  F#m    G    D     A D\nHosana nas alturas. Hosana nas alturas\n F#7          Bm  F#7  Bm  G     A\nBendito o que vem em nome do Senhor\n  D    A      Bm  F#m   G    D    A  D\nHosana nas alturas. Hosana nas alturas",
+  "youtubeId": "ZV0aV40a6iI"
 },
 {
   "id": "amem_tradicional",

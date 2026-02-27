@@ -209,8 +209,11 @@ function imprimirCard(card) {
 // CARREGAMENTO
 // =============================
 
+const chaveDomingo = document.body.dataset.domingo;
+const caminhoDomingo = `data/${chaveDomingo}.json`;
+
 Promise.all([
-  fetch("data/domingo.json").then(r => r.json()),
+  fetch(caminhoDomingo).then(r => r.json()),
   fetch("data/musicas.json").then(r => r.json()),
   fetch("data/fixas.json").then(r => r.json())
 ])
@@ -278,31 +281,42 @@ Promise.all([
 
       listaCantosEl.innerHTML = "";
 
-      function renderizarLeituras() {
+function renderizarLeituras() {
 
-        fetch("data/liturgiaAnoA.json")
-          .then(res => res.json())
-          .then(data => {
+  fetch("data/liturgiaAnoA.json")
+    .then(res => res.json())
+    .then(data => {
 
-            const domingo = data["1domingo_quaresma"];
+      // domingo aqui é o objeto vindo do Promise.all
+      const numero = domingo.domingo; 
+      const chave = `${numero}domingo_quaresma`;
+      const domingoLiturgia = data[chave];
 
-            listaCantosEl.innerHTML = "";
+      if (!domingoLiturgia) {
+        console.error("Liturgia não encontrada para:", chave);
+        listaCantosEl.innerHTML = "<p>Liturgia não encontrada.</p>";
+        return;
+      }
 
-            const leituras = [
-              { titulo: "Primeira Leitura", dados: domingo.primeiraLeitura },
-              { titulo: "Salmo Responsorial", dados: domingo.salmo },
-              { titulo: "Segunda Leitura", dados: domingo.segundaLeitura },
-              { titulo: "Evangelho", dados: domingo.evangelho }
-            ];
+      listaCantosEl.innerHTML = "";
 
-            leituras.forEach(item => {
+      const leituras = [
+        { titulo: "Primeira Leitura", dados: domingoLiturgia.primeiraLeitura },
+        { titulo: "Salmo Responsorial", dados: domingoLiturgia.salmo },
+        { titulo: "Segunda Leitura", dados: domingoLiturgia.segundaLeitura },
+        { titulo: "Evangelho", dados: domingoLiturgia.evangelho }
+      ];
 
-              const card = document.createElement("div");
-              card.className = "card";
+      leituras.forEach(item => {
 
-              const textoId = `texto-${item.titulo.replace(/\s/g, "")}`;
+        if (!item.dados) return;
 
-              card.innerHTML = `
+        const card = document.createElement("div");
+        card.className = "card";
+
+        const textoId = `texto-${item.titulo.replace(/\s/g, "")}`;
+
+        card.innerHTML = `
           <h3>${item.titulo} – ${item.dados.referencia}</h3>
 
           <div class="links especial">
@@ -314,17 +328,20 @@ Promise.all([
           </div>
         `;
 
-              card.querySelector(".btn-mostrar").onclick = () => {
-                const textoEl = card.querySelector(`#${textoId}`);
-                textoEl.classList.toggle("hidden");
-              };
+        card.querySelector(".btn-mostrar").onclick = () => {
+          const textoEl = card.querySelector(`#${textoId}`);
+          textoEl.classList.toggle("hidden");
+        };
 
-              listaCantosEl.appendChild(card);
-            });
+        listaCantosEl.appendChild(card);
+      });
 
-          })
-          .catch(err => console.error("Erro ao carregar liturgia:", err));
-      }
+    })
+    .catch(err => {
+      console.error("Erro ao carregar liturgia:", err);
+      listaCantosEl.innerHTML = "<p>Erro ao carregar a liturgia.</p>";
+    });
+}
 
 
       // Mostrar antífona apenas em Entrada e Comunhão
