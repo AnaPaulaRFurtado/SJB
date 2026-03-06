@@ -3,8 +3,8 @@
   "tempo": "Quaresma",
   "titulo": "3º Domingo da Quaresma",
   "antifonas": {
-    "entrada": "Tenho os olhos sempre fitos no Senhor, pois ele tira os meus pés das armadilhas. Voltai-vos para mim, tende piedade, porque sou pobre, estou sozinho e infeliz! Cf. Sl 24(25),15-16 \n ou \n Quando, por meio de vós, mostrar minha santidade, eu vos tomarei dentre as nações. Haverei de derramar sobre vós uma água pura, e de vossas imundices sereis purificados; dar-vos-ei um novo espírito e um novo coração, diz o Senhor. Cf. Ez 36,23-26",
-    "comunhao": "Daquele que beber da água que eu darei, diz o Senhor, brotará uma fonte que jorra para a vida eterna. Cf. Jo 4,14"
+  "entrada": "Tenho os olhos sempre fitos no Senhor, pois ele tira os meus pés das armadilhas. Voltai-vos para mim, tende piedade, porque sou pobre, estou sozinho e infeliz! Cf. Sl 24(25),15-16 \n ou \n Quando, por meio de vós, mostrar minha santidade, eu vos tomarei dentre as nações. Haverei de derramar sobre vós uma água pura, e de vossas imundices sereis purificados; dar-vos-ei um novo espírito e um novo coração, diz o Senhor. Cf. Ez 36,23-26",
+  "comunhao": "Daquele que beber da água que eu darei, diz o Senhor, brotará uma fonte que jorra para a vida eterna. Cf. Jo 4,14"
   },
    "partes": [
     {
@@ -58,7 +58,7 @@
     {
       "id": "aclamacao",
       "nome": "Aclamação",
-      "estrofe": "Este é o meu Filho amado,\nno qual eu pus todo o meu agrado.\nEscutai-o!",
+      "estrofe": "Na verdade, sois Senhor, o salvador do mundo. \n Senhor, dai-me água viva a fim de eu não ter sede!",
       "musicas": [
         "louvor_e_gloria_a_ti_senhor",
         "louvor_a_vos_o_cristo_rei",
@@ -69,6 +69,7 @@
       "id": "ofertorio",
       "nome": "Ofertório",
       "musicas": [
+        "oracao_ofertorio",
         "se_bendito_senhor_para_sempre",
         "o_vosso_coracao_de_pedra",
         "bendito_es_tu_ideus_criador",
@@ -76,6 +77,7 @@
         "criai_em_nos"
       ]
     },
+
     {
       "id": "santo",
       "nome": "Santo",

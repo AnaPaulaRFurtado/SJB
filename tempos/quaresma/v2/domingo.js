@@ -281,42 +281,42 @@ Promise.all([
 
       listaCantosEl.innerHTML = "";
 
-function renderizarLeituras() {
+      function renderizarLeituras() {
 
-  fetch("data/liturgiaAnoA.json")
-    .then(res => res.json())
-    .then(data => {
+        fetch("data/liturgiaAnoA.json")
+          .then(res => res.json())
+          .then(data => {
 
-      // domingo aqui é o objeto vindo do Promise.all
-      const numero = domingo.domingo; 
-      const chave = `${numero}domingo_quaresma`;
-      const domingoLiturgia = data[chave];
+            // domingo aqui é o objeto vindo do Promise.all
+            const numero = domingo.domingo;
+            const chave = `${numero}domingo_quaresma`;
+            const domingoLiturgia = data[chave];
 
-      if (!domingoLiturgia) {
-        console.error("Liturgia não encontrada para:", chave);
-        listaCantosEl.innerHTML = "<p>Liturgia não encontrada.</p>";
-        return;
-      }
+            if (!domingoLiturgia) {
+              console.error("Liturgia não encontrada para:", chave);
+              listaCantosEl.innerHTML = "<p>Liturgia não encontrada.</p>";
+              return;
+            }
 
-      listaCantosEl.innerHTML = "";
+            listaCantosEl.innerHTML = "";
 
-      const leituras = [
-        { titulo: "Primeira Leitura", dados: domingoLiturgia.primeiraLeitura },
-        { titulo: "Salmo Responsorial", dados: domingoLiturgia.salmo },
-        { titulo: "Segunda Leitura", dados: domingoLiturgia.segundaLeitura },
-        { titulo: "Evangelho", dados: domingoLiturgia.evangelho }
-      ];
+            const leituras = [
+              { titulo: "Primeira Leitura", dados: domingoLiturgia.primeiraLeitura },
+              { titulo: "Salmo Responsorial", dados: domingoLiturgia.salmo },
+              { titulo: "Segunda Leitura", dados: domingoLiturgia.segundaLeitura },
+              { titulo: "Evangelho", dados: domingoLiturgia.evangelho }
+            ];
 
-      leituras.forEach(item => {
+            leituras.forEach(item => {
 
-        if (!item.dados) return;
+              if (!item.dados) return;
 
-        const card = document.createElement("div");
-        card.className = "card";
+              const card = document.createElement("div");
+              card.className = "card";
 
-        const textoId = `texto-${item.titulo.replace(/\s/g, "")}`;
+              const textoId = `texto-${item.titulo.replace(/\s/g, "")}`;
 
-        card.innerHTML = `
+              card.innerHTML = `
           <h3>${item.titulo} – ${item.dados.referencia}</h3>
 
           <div class="links especial">
@@ -328,20 +328,20 @@ function renderizarLeituras() {
           </div>
         `;
 
-        card.querySelector(".btn-mostrar").onclick = () => {
-          const textoEl = card.querySelector(`#${textoId}`);
-          textoEl.classList.toggle("hidden");
-        };
+              card.querySelector(".btn-mostrar").onclick = () => {
+                const textoEl = card.querySelector(`#${textoId}`);
+                textoEl.classList.toggle("hidden");
+              };
 
-        listaCantosEl.appendChild(card);
-      });
+              listaCantosEl.appendChild(card);
+            });
 
-    })
-    .catch(err => {
-      console.error("Erro ao carregar liturgia:", err);
-      listaCantosEl.innerHTML = "<p>Erro ao carregar a liturgia.</p>";
-    });
-}
+          })
+          .catch(err => {
+            console.error("Erro ao carregar liturgia:", err);
+            listaCantosEl.innerHTML = "<p>Erro ao carregar a liturgia.</p>";
+          });
+      }
 
 
       // Mostrar antífona apenas em Entrada e Comunhão
@@ -354,7 +354,6 @@ function renderizarLeituras() {
     `;
           antifonaEl.classList.remove("hidden");
         }
-
         else if (nomeParte === "Comunhão" && domingo.antifonas.comunhao) {
           antifonaEl.innerHTML = `
       <strong>Antífona de Comunhão:</strong><br>
