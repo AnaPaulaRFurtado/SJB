@@ -30,6 +30,18 @@
     "youtubeId": "YzX57_AepuE"
   },
   {
+  "id": "mestre_amigo",
+  "titulo": "Mestre amigo",
+  "tipo": "refrao_meditativo",
+  "tempos": ["quaresma"],
+  "tom": "D",
+  "observacao":"Música de Nicodemos Costa",
+  "letra": "Vou reclinar em teu peito, Mestre amigo\nQuero escutar cada pulsar, teus desejos\nTe perscrutar\n\nQuero ajustar meu coração ai teu\nSenhor meu Deus\nE ser só teu, viver em Ti\n\nQuero ajustar meu coração ao teu\nAmado meu\nSer todo teu, viver em Ti\n\nPermanecer em ti.",
+  "cifra": "[intro] \nD   A/C#  Bm7   A   G  F#m7   Em7   A7(11)\n\n        D     A/C#         Bm7   D/A   G              A7\nVou reclinar em teu peito, Mestre amigo\n                   D               A/C#           G/B\nQuero escutar cada pulsar, teus desejos\nA7   A#dim   Bm7\nTe perscrutar\n                    A                           G\nQuero ajustar meu coração ai teu\n      D/F#\nSenhor meu Deus\n    Em7              A7    A#dim   Bm7\nE ser só teu, viver em Ti\n                A/C#                G\nQuero ajustar meu coração ao teu\n   D/F#\nAmado meu\n       Em7        A7           D\nSer todo Teu, viver em ti!",
+  "youtubeId": "zmbTqWGF_eA"
+},
+
+  {
     "id": "senhor_que_a_tua_palavra",
     "titulo": "Senhor, que a tua palavra",
     "tipo": "refrao_palavra",
@@ -68,6 +80,15 @@
   "letra": "{refrao}\nDesça como a chuva\nA Tua Palavra\nQue se espalhe como orvalho\nComo chuvisco na relva\nComo um aguaceiro na grama\nAmém!\n{/refrao}",
   "cifra": "Bm            Em\nDesça como a chuva\nF#       Bm   Bm7\nA Tua Palavra\n                      Em    A7\nQue se espalhe como orvalho\n                D    Bm\nComo chuvisco na relva\n        C#°         F#\nComo um aguaceiro na grama\n  Bm\nAmém!",
   "youtubeId": "s4W3bWRvcac"
+},
+{
+  "id": "oracao_ofertorio",
+  "titulo": "Resposta cantada após a oração das oferendas.",
+  "tom": "C",
+  "observacao": "Na opção letra temos a oração completa.",
+  "letra":"<b>LITURGIA EUCARÍSTICA</b>\n<b>Sacerdote:</b> Bendito sejais, Senhor, Deus do universo,\npelo pão que recebemos de vossa bondade,\nfruto da terra e do trabalho humano,\nque agora vos apresentamos,\ne para nós se vai tornar pão da vida.\n\n<b>Sacerdote:</b> Bendito seja o nome do Senhor, agora e sempre por toda a eternidade!\n<b>Ministério: Bendito seja o nome do Senhor, agora e sempre por toda a eternidade!</b>\n\n<b>Sacerdote:</b>Pelo mistério desta água e deste vinho\npossamos participar da divindade do vosso Filho,\nque se dignou assumir a nossa humanidade.\nBendito sejais, Senhor, Deus do universo,\npelo vinho que recebemos de vossa bondade,\nfruto da videira e do trabalho humano,\nque agora vos apresentamos,\ne para nós se vai tornar vinho da salvação.\n\n<b>Sacerdote:</b> Bendito seja o nome do Senhor, agora e sempre por toda a eternidade!\n<b>Ministério: Bendito seja o nome do Senhor, agora e sempre por toda a eternidade!</b>\n\n<b>Sacerdote:</b> De coração contrito e humilde,\nsejamos, Senhor, acolhidos por vós;\ne seja o nosso sacrifício de tal modo oferecido\nque vos agrade, Senhor, nosso Deus.\n\n<b>– O ministério pode ser retomar o canto das oferendas</b>",
+  "cifra": "   C       Am        Em\nBendito seja o nome do Senhor\n        F            G          C\nAgora e sempre e por toda eternidade",
+  "youtubeId": "EXFWWjTZ4Ec"
 },
 
 {

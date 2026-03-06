@@ -10,6 +10,10 @@ body.tempo-comum {
   --primary: #1b5e20;
   --secondary: #43a047;
 }
+body.laetare {
+    --primary: #6d2653;
+  --secondary: #7e3465;
+}
 
 body.quaresma {
   --primary: #4a148c;
@@ -526,11 +530,26 @@ body.quaresma .letra {
   border-radius: 6px;
 }
 
+.card {
+  min-width: 0;
+}
+
+.card {
+  min-width: 0;
+}
+
+.cifra {
+  width: 100%;
+  overflow-x: auto;
+ -webkit-overflow-scrolling: touch;
+}
+
 .cifra pre {
   font-family: "Roboto Mono", monospace;
   font-size: 17px;
   line-height: 1.4;
   white-space: pre;
+  overflow-x: auto;
   margin: 0;
   background: #fafafa;
   padding: 1px;
@@ -800,7 +819,10 @@ body.quaresma .letra {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-wrap: wrap;
+  gap: 8px;
 }
+
 .btn-abrir {
   background: transparent;
   border: none;
@@ -868,6 +890,7 @@ body.quaresma .letra {
     padding: 10px 20px 30px 20px;
   }
 }
+
 
 
 
