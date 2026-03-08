@@ -322,23 +322,30 @@ section {
 
 .btn-voltar-header {
   position: absolute;
-  top: 10px;
-  right: 14px;
-  font-size: 24px;
-  color: #fff;
-  text-decoration: none;
-  font-weight: 700;
-  border: none;
-  border-radius: 0;
-  width: auto;
-  height: auto;
-  background: none;
-  padding: 4px 6px;
+  top: 8px;
+  right: 10px;
+
+  font-size: 26px;        /* seta maior */
+  font-weight: 900;       /* mais grossa */
+
+  width: 44px;            /* área de toque ideal mobile */
+  height: 44px;
+
   display: flex;
   align-items: center;
   justify-content: center;
-  transition: 0.3s ease;
-  z-index: 1000;
+
+  color: #fff;
+  text-decoration: none;
+
+  border-radius: 8px;
+  background: rgba(255,255,255,0.15); /* fundo leve */
+
+  cursor: pointer;
+  transition: 0.2s;
+}
+.btn-voltar-header:hover {
+  background: rgba(255,255,255,0.25);
 }
 
 .btn-voltar-header:hover {
@@ -615,14 +622,31 @@ body.quaresma .letra {
   gap: 8px;
 }
 
-.transposicao button {
+.transposicao button,
+.btn-imprimir {
   background: var(--secondary);
   color: white;
   border: none;
-  padding: 4px 10px;
-  border-radius: 6px;
+  width: 36px;
+  height: 36px;
+  border-radius: 8px;
   cursor: pointer;
   font-weight: bold;
+  font-size: 18px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn-imprimir {
+  background: var(--secondary);
+}
+
+.transposicao button:hover,
+.btn-imprimir:hover {
+  opacity: 0.9;
+  transform: scale(1.05);
 }
 
 .tom-atual {
@@ -889,6 +913,16 @@ body.quaresma .letra {
   .pagina-repertorio {
     padding: 10px 20px 30px 20px;
   }
+}
+
+@media (max-width:480px){
+  .cifra pre{
+    font-size:15px;
+  }
+}
+
+.card {
+  max-width: 100%;
 }
 
 
