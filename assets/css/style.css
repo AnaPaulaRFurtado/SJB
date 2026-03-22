@@ -20,6 +20,11 @@ body.quaresma {
   --secondary: #7b1fa2;
 }
 
+body.semanaSanta {
+  --primary: #8B0000;  
+  --secondary: #C62828; 
+}
+
 body.advento {
   --primary: #6a1b9a;
   --secondary: #9c27b0;
@@ -37,8 +42,8 @@ body.natal section h2 {
 
 
 body.pascoa {
-  --primary: #f57c00;
-  --secondary: #ffb300;
+  --primary: #eeae6e;
+  --secondary: #b48a26;
 }
 
 body.pentecostes {
@@ -314,10 +319,10 @@ section {
   background: #fff3cd;
   border: 1px solid #ffeeba;
   padding: 10px 14px;
-  margin-bottom: 16px;
   border-radius: 6px;
   font-size: 0.95rem;
   color: #856404;
+  line-height: 1.5;
 }
 
 .btn-voltar-header {
