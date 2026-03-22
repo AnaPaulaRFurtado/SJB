@@ -1,0 +1,180 @@
+{
+  "tempo": "semana_santa",
+  "titulo": "Domingo de Pascoa",
+  "chaveLiturgia": "pascoa",
+"antifonas": {
+  "entrada": "Ressuscitei, e sempre estou contigo, aleluia;\n puseste tua mão sobre mim, aleluia; admirável é tua sabedoria, aleluia, aleluia. (Sl 138,18.5-6)\n ou\n Realmente, o Senhor ressuscitou, aleluia. \nA ele a glória e o poder, pelos séculos dos séculos, aleluia, aleluia.(Lc 24,34;cf. Ap 1,6)",
+  "comunhao": "Nosso cordeiro pascal, Cristo, já está imolado. Celebremos a festa, não com velho fermento, mas com pães ázimos de pureza e de verdade, aleluia! (1Cor 5,7-8)"
+},
+  "partes": [
+    {
+      "id": "entrada",
+      "nome": "Entrada",
+      "musicas": [
+        "o_senhor_ressurgiu",
+        "deus_enviou",
+        "por_sua_morte",
+        "novo_sol_brilhou",
+        "ressuscitou"
+      ]
+    },
+    {
+      "id": "aspersao",
+      "nome": "Aspersão",
+      "musicas": [
+        "banhados_em_cristo"
+      ]
+    },
+    {
+      "id": "ato_penitencial",
+      "nome": "Ato penitencial",
+      "musicas": [
+        "senhor_que_viestes_cancao_nova",
+        "senhor_que_viestes_recado",
+        "muito_perdoais",
+        "confesso_a_deus_recado",
+        "kyrie_jmj"
+      ]
+    },
+    {
+      "id": "gloria",
+      "nome": "Glória",
+      "musicas": [
+        "gloria_coral_cn",
+        "gloria_eliana",
+        "gloria_campinas",
+        "gloria_frei",
+        "gloria_cyros",
+        "gloria_a_deus",
+        "e_paz_aos_seus_amem"
+      ]
+    },
+    {
+      "id": "refrao_palavra",
+      "nome": "Refrão da Palavra",
+      "musicas": [
+        "senhor_que_a_tua_palavra",
+        "que_arda_como_brasa",
+        "fala_que_teu_servo_escuta",
+        "desca_como_a_chuva",
+        "eu_vim_para_escutar",
+        "a_palavra_de_deus_e_luz",
+        "fala_da_vida",
+        "parei_para_escutar",
+        "palavra_que_salva"
+      ]
+    },
+    {
+      "id": "liturgia_palavra",
+      "nome": "Liturgia da Palavra"
+    },
+    {
+      "id": "aclamacao",
+      "nome": "Aclamação",
+      "musicas": [
+        "aleluia_cn",
+        "aleluia_capella",
+        "aleluia_jmj",
+        "aleluia_santo_evangelho",
+        "aleluia_a_minha_alma",
+        "aleluia_eu_te_louvo",
+        "aleluia1",
+        "alelu_u_i_a"
+      ]
+    },
+    {
+      "id": "ofertorio",
+      "nome": "Ofertório",
+      "musicas": [
+        "as_nossas_ofertas",
+        "bendito_seja",
+        "em_procissao",
+        "neste_altar_da_uniao"
+      ]
+    },
+    {
+      "id": "santo",
+      "nome": "Santo",
+      "musicas": [
+        "santo_manoel_stenio",
+        "santo_cd_santa_eucaristia",
+        "o_senhor_e_santo",
+        "hosana_nas_alturas_hosa_a_na",
+        "santo_marco_frisina",
+        "santo_e_adaptado",
+        "santo_i_adaptado"
+      ]
+    },
+    {
+      "id": "oracao_eucaristica",
+      "nome": "Oração Eucarística",
+      "partes": [
+        {
+          "id": "oe3",
+          "nome": "Oração Eucarística III",
+          "observacao": "Aclamação memorial: Mistério da fé!",
+          "texto": "Nova Edição\nTexto Oficial da Terceira Edição Típica do Missal Romano\n(1ª Edição, 2023)\n\nPe: O Senhor esteja convosco.\nT: Ele está no meio de nós.\nPe: Corações ao alto.\nT: O nosso coração está em Deus.\nPe: Demos graças ao Senhor, nosso Deus.\nT: É nosso dever e nossa salvação.\n\nPe: Na verdade, vós sois Santo, ó Deus do universo, e tudo o que criastes proclama o vosso louvor, porque, por Jesus Cristo, vosso Filho e Senhor nosso, e pela força do Espírito Santo, dais vida e santidade a todas as coisas e não cessais de reunir para vós um povo que vos ofereça em toda parte, do nascer ao pôr do sol, um sacrifício perfeito.\n\nPe: Por isso, ó Pai, nós vos suplicamos: santificai pelo Espírito Santo as oferendas que vos apresentamos para serem consagradas a fim de que se tornem o Corpo † e o Sangue de vosso Filho, nosso Senhor Jesus Cristo, que nos mandou celebrar estes mistérios.\nT: Enviai o vosso Espírito Santo!\n\nPe: Na noite em que ia ser entregue, Jesus tomou o pão, pronunciou a bênção de ação de graças, partiu e o deu a seus discípulos, dizendo:\nTOMAI, TODOS, E COMEI: ISTO É O MEU CORPO, QUE SERÁ ENTREGUE POR VÓS.\n\nPe: Do mesmo modo, ele tomou em suas mãos o cálice com o vinho, deu-vos graças novamente e o deu a seus discípulos, dizendo:\nTOMAI, TODOS, E BEBEI: ESTE É O CÁLICE DO MEU SANGUE, O SANGUE DA NOVA E ETERNA ALIANÇA, QUE SERÁ DERRAMADO POR VÓS E POR TODOS, PARA REMISSÃO DOS PECADOS. FAZEI ISTO EM MEMÓRIA DE MIM.\n\nMistério da fé para a salvação do mundo!\nT: Salvador do mundo, salvai-nos, vós que nos libertastes pela cruz e ressurreição.\n\nPe: Celebrando agora, ó Pai, o memorial da paixão redentora do vosso Filho, da sua gloriosa ressurreição e ascensão ao céu, e enquanto esperamos sua nova vinda, nós vos oferecemos em ação de graças este sacrifício vivo e santo.\nT: Aceitai, ó Senhor, a nossa oferta!\n\nPe: Olhai com bondade a oblação da vossa Igreja e reconhecei nela o sacrifício que nos reconciliou convosco; concedei que, alimentando-nos com o Corpo e o Sangue do vosso Filho, repletos do Espírito Santo, nos tornemos em Cristo um só corpo e um só espírito.\nT: O Espírito nos una num só corpo!\n\nPe: Que o mesmo Espírito faça de nós uma eterna oferenda para alcançarmos a herança com os vossos eleitos: a santíssima Virgem Maria, Mãe de Deus, São José, seu esposo, os vossos santos Apóstolos e gloriosos Mártires e todos os Santos, que não cessam de interceder por nós na vossa presença.\nT: Fazei de nós uma perfeita oferenda!\n\nPe: Nós vos suplicamos, Senhor, que este sacrifício da nossa reconciliação estenda a paz e a salvação ao mundo inteiro. Confirmai na fé e na caridade a vossa Igreja que caminha neste mundo.\nT: Lembrai-vos, ó Pai, da vossa Igreja!\n\nPe: Acolhei com bondade no vosso reino os nossos irmãos e irmãs que partiram desta vida e todos os que morreram na vossa amizade. Unidos a eles, esperamos também nós saciar-nos eternamente da vossa glória, por Cristo, Senhor nosso.\n\nPe: Por Cristo, com Cristo, e em Cristo, a vós, Deus Pai todo-poderoso, na unidade do Espírito Santo, toda honra e toda glória, por todos os séculos dos séculos.\nT: Amém!"
+        }
+      ]
+    },
+    {
+      "id": "doxologia",
+      "nome": "Doxologia",
+      "musicas": [
+        "amem_tradicional",
+        "amem_ta_ta",
+        "amem_shalom",
+        "amem_hudson"
+      ]
+    },
+    {
+      "id": "cordeiro",
+      "nome": "Cordeiro",
+      "musicas": [
+        "cordeiro_I_aurora",
+        "codeiro_II_solene",
+        "oh_cordeiro",
+        "cordeiro_voz_do_peregrino",
+        "oh_cordeiro_II",
+        "cordeiro_matheus_assuncao"
+      ]
+    },
+    {
+      "id": "comunhao",
+      "nome": "Comunhão",
+      "musicas": [
+        "e_quando_amanhecer",
+        "sacrificio_de_amor",
+        "tu_nos_atraistes",
+        "na_mesa_da_eucaristia",
+        "na_santa_eucaristia",
+        "um_so_corpo",
+        "eu_sou_o_pao"  
+      ]
+    },
+    {
+      "id": "pos",
+      "nome": "Pós Comunhão",
+      "musicas": [
+        "preciosa_sao_as_horas",
+        "quem_podia_imaginar",
+        "lugares",
+        "meu_senhor_e_meu_deus",
+        "oh_hostia_santa",
+        "alma_de_cristo",
+        "alma_de_cristo_shalom",
+        "alma_de_cristo_nelsinho"
+      ]
+    },
+    {
+      "id": "final",
+      "nome": "Final",
+      "musicas": [
+        "eis_que_faco_nova",
+        "por_sua_morte",
+        "novo_sol_brilhou",
+        "ressuscitou"
+      ]
+    }
+  ]
+}

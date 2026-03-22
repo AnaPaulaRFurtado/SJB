@@ -1,0 +1,288 @@
+[
+  {
+  "id": "hosana_ao_filho_de_davi",
+  "titulo": "Hosana ao Filho de Davi",
+  "tipo": "refrao_meditativo",
+  "tempos": ["semana_santa"],
+  "tom": "",
+  "letra": "",
+  "cifra": "",
+  "youtubeId": "Sz2UKDhNF2g"
+},
+{
+  "id": "comam_do_pao",
+  "titulo": "Comam do pão",
+  "tipo": "refrao_meditativo",
+  "tempos": ["semana_santa"],
+  "tom": "G",
+  "letra": "Comam do pão, bebam do cálice, quem a mim vem não terá fome!\nComam do pão, bebam do cálice, quem em mim crê não terá sede!",
+  "cifra": "G       C       Am      D       Bm        Em      D   D4 D\nComam do pão, bebam do cálice, quem a mim vem não terá fome!\n\nG       D       Em      Bm      C         D       G   D4 D\nComam do pão, bebam do cálice, quem em mim crê não terá sede!",
+  "youtubeId": "HEIp9c2pN8E"
+},
+
+    {
+    "id": "vossa_misericordia",
+    "titulo": "Vossa misericódia",
+    "tipo": "ato_penitencial",
+    "tempos": ["quaresma"],
+    "tom": "E",
+    "letra": "1. Senhor, que oferecestes o vosso perdão\nA Pedro arrependido, tende piedade de nós.\n\n{refrao}\nKyrie eleison, Kyrie eleison,\nKyrie elei...son!\n{/refrao}\n\n2. Cristo, que prometestes o paraíso ao bom ladrão, tende piedade de nós.\n\n{refrao}\nKyrie eleison, Kyrie eleison,\nKyrie elei...son!\n{/refrao}\n\n3. Senhor, que acolheis toda pessoa que confia na vossa misericórdia,tende piedade de nós.\n\n{refrao}\nKyrie eleison, Kyrie eleison,\nKyrie elei...son (bis)!\n{/refrao}",
+    "cifra": "     E              A               E\n1. Senhor, que oferecestes o vosso perdão\n A       C#m\nA Pedro arrependido,\nA                B7(4) B7  Cº\nTende piedade de nós.\n\nC#m7  B/D#     E     A\nKyrie eleison, Kyrie eleison,\nF#m7  F#m7/E D   B7(4) B7\nKyrie elei...son!\n\n   E              A              E   A        C#m7\n2. Cristo, que prometestes o paraíso ao bom ladrão,\nA                B7(4) B7 Cº\nTende piedade de nós.\n\nC#m7  B/D#     E     A\nKyrie eleison, Kyrie eleison,\nF#m7  F#m7/E D   B7(4) B7\nKyrie elei...son!\n\n     E            A            E\n3. Senhor, que acolheis toda pessoa\n       A                  C#m7\nQue confia na vossa misericórdia,\nA                B7(4) B7 Cº\nTende piedade de nós.\n\nC#m7  B/D#     E     A\nKyrie eleison, Kyrie eleison,\nF#m7  F#m7/E D   B7(4) B7\nKyrie elei...son (bis)!",
+    "youtubeId": "BfrrFSxObPs"
+  },
+
+  {
+  "id": "deus_santo_deus_forte",
+  "titulo": "Deus santo, Deus Forte, Deus imortal",
+  "tipo": "refrao_palavra",
+  "tempos": ["semana_santa"],
+  "tom": "Cm",
+  "letra": "{refrao}\nDeus santo, Deus forte,\nDeus imortal,\ntende piedade de nós!\n\nDeus santo, Deus forte,\nDeus imortal,\ntende piedade de nós!\n{/refrao}",
+  "cifra": "Am        Em\nDeus santo, Deus forte,\nF        C\nDeus imortal,\nDm      Am      G\ntende piedade de nós!\n\nAm        Em\nDeus santo, Deus forte,\nF    G    C\nDeus imortal,\nDm      Am      Em  Dm  Gm  G\ntende piedade de nós!",
+  "audio": "lamentos.mp3"
+},
+  {
+    "id": "senhor_que_a_tua_palavra",
+    "titulo": "Senhor, que a tua palavra",
+    "tipo": "refrao_palavra",
+    "tempos": ["quaresma"],
+    "tom": "Cm",
+    "letra": "Senhor, que tua palavra transforme a nossa vida.\nQueremos caminhar com retidão na tua luz.\n\n{refrao}",
+    "cifra": "Cm             Fm         Bb7         Eb\nSenhor, que tua palavra transforme a nossa vida\n   Fm     G7  Cm     Ab   Fm    G   Cm\nQueremos caminhar com retidão na tua luz!",
+    "youtubeId": "f9HXDApSXjw"
+  },
+  {
+    "id": "que_arda_como_brasa",
+    "titulo": "Que arda como brasa",
+    "tipo": "refrao_palavra",
+    "tempos": ["quaresma"],
+    "tom": "D",
+    "letra": "Que arda como brasa\nTua palavra nos renove\nEssa chama que a boca\nProcla-a-ma!",
+    "cifra": "     D         A\nQue arda como brasa\n      Bm          F#m\nTua palavra nos renove\n     G         D\nEssa chama que a boca\n   G  A   D\nProcla-a-ma",
+    "youtubeId": "ushj5sKNvUE"
+  },
+  {
+  "id": "fala_que_teu_servo_escuta",
+  "titulo": "Fala que teu servo escuta",
+  "tipo": "refrao_palavra",
+  "tempos": ["quaresma"],
+  "tom": "D",
+  "letra": "{refrao}\nFala, que teu servo escuta.\nFala-me Senhor,\nque teu servo escuta!\nFala-me Senhor,\nque teu servo escuta!\n{/refrao}",
+  "cifra": "D   G                 D    G\nFala, que teu servo escuta.\nD               G\nFala-me Senhor,\n                D     G\nque teu servo escuta!\nD               G\nFala-me Senhor,\n                D     G   D\nque teu servo escuta!",
+  "youtubeId": "1h3C4polBhc"
+},
+{
+  "id": "desca_como_a_chuva",
+  "titulo": "Desça como a chuva",
+  "tipo": "refrao_palavra",
+  "tempos": ["quaresma"],
+  "tom": "Bm",
+  "letra": "{refrao}\nDesça como a chuva\nA Tua Palavra\nQue se espalhe como orvalho\nComo chuvisco na relva\nComo um aguaceiro na grama\nAmém!\n{/refrao}",
+  "cifra": "Bm            Em\nDesça como a chuva\nF#       Bm   Bm7\nA Tua Palavra\n                      Em    A7\nQue se espalhe como orvalho\n                D    Bm\nComo chuvisco na relva\n        C#°         F#\nComo um aguaceiro na grama\n  Bm\nAmém!",
+  "youtubeId": "s4W3bWRvcac"
+},
+{
+  "id": "oracao_ofertorio",
+  "titulo": "Resposta cantada após a oração das oferendas.",
+  "tom": "C",
+  "observacao": "Na opção letra temos a oração completa.",
+  "letra":"<b>LITURGIA EUCARÍSTICA</b>\n<b>Sacerdote:</b> Bendito sejais, Senhor, Deus do universo,\npelo pão que recebemos de vossa bondade,\nfruto da terra e do trabalho humano,\nque agora vos apresentamos,\ne para nós se vai tornar pão da vida.\n\n<b>Sacerdote:</b> Bendito seja o nome do Senhor, agora e sempre por toda a eternidade!\n<b>Ministério: Bendito seja o nome do Senhor, agora e sempre por toda a eternidade!</b>\n\n<b>Sacerdote:</b>Pelo mistério desta água e deste vinho\npossamos participar da divindade do vosso Filho,\nque se dignou assumir a nossa humanidade.\nBendito sejais, Senhor, Deus do universo,\npelo vinho que recebemos de vossa bondade,\nfruto da videira e do trabalho humano,\nque agora vos apresentamos,\ne para nós se vai tornar vinho da salvação.\n\n<b>Sacerdote:</b> Bendito seja o nome do Senhor, agora e sempre por toda a eternidade!\n<b>Ministério: Bendito seja o nome do Senhor, agora e sempre por toda a eternidade!</b>\n\n<b>Sacerdote:</b> De coração contrito e humilde,\nsejamos, Senhor, acolhidos por vós;\ne seja o nosso sacrifício de tal modo oferecido\nque vos agrade, Senhor, nosso Deus.\n\n<b>– O ministério pode ser retomar o canto das oferendas</b>",
+  "cifra": "   C       Am        Em\nBendito seja o nome do Senhor\n        F            G          C\nAgora e sempre e por toda eternidade",
+  "youtubeId": "EXFWWjTZ4Ec"
+},
+{
+  "id": "santo_cd_santa_eucaristia",
+  "titulo": "Santo | CD Na Santa Eucaristia",
+  "tipo": "santo",
+  "tempos": ["geral"],
+  "tom": "C",
+  "observacao":"Tom: Db (forma dos acordes no tom de C)",
+  "letra": "{refrao}\nSanto, santo, santo\nSenhor Deus do universo\nSanto, santo, santo\nSenhor Deus do universo\n{/refrao}\n\nCéus e terra proclamam a vossa glória\nHosana nas alturas\n\nBendito aquele que vem em nome do Senhor\nHosana nas alturas\n\n{refrao}\nSanto, santo, santo\nSenhor Deus do universo\nSanto, santo, santo\nSenhor Deus do universo\n{/refrao}",
+  "cifra": "C      Em     F/C    G\nSanto, santo, santo\nAm          Em      F  G\nSenhor Deus do universo\nC      Em     F/C    G\nSanto, santo, santo\nAm          Em     G  C\nSenhor Deus do universo\n\nAm             G       F       G\nCéus e terra proclamam a vossa glória\nF     Am       G\nHosana nas alturas\n\nAm           G               F       G\nBendito aquele que vem em nome do Senhor\nF     Dm      G    A7\nHosana nas alturas\n\nD      F#m   G/D     A\nSanto, santo, santo\nBm           F#m   G  A\nSenhor Deus do universo\nD      F#m   G/D     A\nSanto, santo, santo\nBm           F#m   A   D\nSenhor Deus do universo",
+  "youtubeId": "btKYZtURkzQ"
+},
+{
+  "id": "santo_solene",
+  "titulo": "Santo Solene",
+  "tipo": "santo",
+  "tempos": ["quaresma"],
+  "tom": "E",
+  "audio": "santo_solene.mp3",
+  "letra": "Santo, Santo, Santo Senhor Deus do universo.\nO céu e a terra proclamam Vossa glória.\n\nHosana, hosa-a-na, hosana nas alturas!\nHosana, hosa-a-na, hosana nas alturas!\n\nBendito o que vem em nome do Senhor!\n\nHosana, hosa-a-na, hosana nas alturas!\nHosana, hosa-a-na, hosana nas alturas!",
+  "cifra": "E              A              E\nSanto, Santo, Santo Senhor Deus do universo.\n\nE              A              E\nO céu e a terra proclamam Vossa glória.\n\nB        C#m      B     A     E\nHosana, hosa-a-na, hosana nas alturas!\nB        C#m      B     A     E\nHosana, hosa-a-na, hosana nas alturas!\n\nE              A              E\nBendito o que vem em nome do Senhor!\n\nB        C#m      B     A     E\nHosana, hosa-a-na, hosana nas alturas!\nB        C#m      B     A     E\nHosana, hosa-a-na, hosana nas alturas!"
+},
+{
+  "id": "o_senhor_e_santo",
+  "titulo": "O Senhor é santo",
+  "tipo": "santo",
+  "tempos": ["quaresma"],
+  "tom": "D",
+  "observacao": "Adaptação Litúrgica - Angelo La Serra",
+  "letra": "Santo, Santo, Santo\n\nSenhor, Deus do universo! O céu e a terra proclamam vossa glória.Hosana nas alturas!\n\nSanto, Santo, Santo\n\nBendito o que vem em nome do Senhor!\nBendito o que vem em nome do Senhor!\nHosana, Hosana nas alturas!",
+  "cifra": "D  A/C# Bm Bm/G A4   A\nSan-to, San-to, San-to\n\n        D        A/C# Bm    Bm/A G Em   A4  A A/G F#m   F#m7\nSenhor, Deus do U-ni--ver-so! O céu e a terra proclamam vossa\nBm\nGlória\n  G          A  D\nHosana nas alturas!\n\nD  A/C# Bm Bm7  D/A\nSan-to, San-to, San-to\n\n   D/A        G      Bm         A\nBendito o que vem em nome do Senhor!\nD  G          A      G    A     D\nBendito o que vem em nome do Senhor!\n   D G D A/C# Bm Bm7      G A D\nHo-sa-na Ho---sa-na nas alturas!",
+  "youtubeId":"113WKRTefvE"
+},
+{
+  "id": "hosana_nas_alturas_hosa_a_na",
+  "titulo": "Santo, santo, santo",
+  "tipo": "santo",
+  "tempos": ["quaresma"],
+  "tom": "C",
+  "letra": "Santo, Santo, Santo\nSenhor, Deus do universo.\nO céu e a terra proclamam\nA Vossa glória.\n\n{refrao}\nHosana nas alturas,\nHosana!\nHosana nas alturas,\nHosana!\n{/refrao}\n\nBendito o que vem\nEm nome do Senhor.\nBendito o que vem\nEm nome do Senhor.\n\n{refrao}\nHosana nas alturas,\nHosana!\nHosana nas alturas,\nHosana!\n{/refrao}",
+  "cifra": "[Intro] C  Am  F  G\n\nC             Am\nSanto, Santo, Santo\nF                 G\nSenhor, Deus do universo\nC                Am\nO céu e a terra proclamam\nF       G\nA Vossa glória\n\nC           Am\nHosana nas alturas\nF       G\nHosana\nC           Am\nHosana nas alturas\nF       G\nHosana\nC           Am\nBendito o que vem\nF         G\nEm nome do Senhor\nC           Am\nBendito o que vem\nF         G\nEm nome do Senhor\nC          Am\nHosana nas alturas\nF       G\nHosana\nC          Am\nHosana nas alturas\nF       G\nHosana",
+  "youtubeId": "ysj8Sub2q2A"
+},
+
+{
+  "id": "santo_e_adaptado",
+  "titulo": "Santo é",
+  "tipo": "santo",
+  "tempos": ["quaresma"],
+  "tom": "A",
+  "observacao":"Adaptação Litúrgica Marcelo Koychi",
+  "letra": "Santo, Santo\nSanto Senhor Deus do universo.\n\nSanto, Santo\nSanto, Senhor Deus do universo.\n\nO céu e a terra proclamam vossa glória.\n\n{refrao}\nHosana, hosana nas alturas.\n{/refrao}\n\nBendito o que vem em nome do Senhor.\n\n{refrao}\nHosana, hosana nas alturas.\nHosana, hosana.\n{/refrao}",
+  "cifra": "[Intro] E A D G B E\n\nA  E  F#m  C#m\nSanto, Santo\nD            A          B7  E\nSanto Senhor Deus do universo\n\nA  E  F#m  C#m\nSanto, Santo\nD            A          B7  E\nSanto, Senhor Deus do universo\n\nD         E         A           F#m\nO céu e a terra proclamam vossa glória\nBm      E          A  F#m\nHosana, hosana nas alturas\n\nBm          E     A         F#m\nBendito o que vem em nome do Senhor\nBm      E          A  F#m\nHosana, hosana nas alturas\n\nBm      E  A  A7  Bm     E          A  F#m\nHosana, hosana. Hosana, hosana nas alturas\nBm      E   A\nHosana, hosana",
+  "youtubeId":"qM60p0pqJBY"
+},
+{
+  "id": "santo_i_adaptado",
+  "titulo": "Santo I",
+  "tipo": "santo",
+  "tempos": ["quaresma"],
+  "tom": "E",
+  "observacao":"Adaptação Litúrgica - Marcio Gonçalves",
+  "letra": "Santo, santo, santo Senhor.\nSanto, santo, santo Senhor Deus do universo.\n\nO céu e a terra proclamam vossa glória.\nHosana nas alturas. Hosana nas alturas.\n\nBendito o que vem em nome do Senhor.\nHosana nas alturas. Hosana nas alturas.\n\nSanto, santo, santo Senhor.\nSanto, santo, santo Senhor Deus do universo.",
+  "cifra": "E        B        F#m      E\nSanto, santo, santo, Senhor.\nA        E        F#m      E   B\nSanto, santo, santo, Senhor.\n\nE        B        F#m      E   A\nSanto, santo, santo,\nE        F#m      E        B      E\nSenhor Deus do universo.\n\nE        B\nO céu e a terra\nF#m              E\nproclamam vossa glória.\nF#m      E4  E\nHosana nas alturas!\nF#m      E4  E\nHosana nas alturas!\n\nE        B\nBendito o que vem\nF#m              E\nem nome do Senhor.\nF#m      E4  E\nHosana nas alturas!\nF#m      E4  E\nHosana nas alturas!\n\nE        B        F#m      E\nSanto, santo, santo, Senhor.\nA        E        F#m      E   B\nSanto, santo, santo, Senhor.\n\nE        B        F#m      E   A\nSanto, santo, santo,\nE        F#m      E        B      E\nSenhor Deus do universo.",
+  "audio": "santo-adaptado.mp3"
+},
+{
+  "id": "santo_marco_frisina",
+  "titulo": " Santo, Santo, Santo",
+  "tipo": "santo",
+  "tempos": ["quaresma"],
+  "tom": "D",
+  "observacao":"Santo (L.: MR; M.: Mons. Marco Frisina)",
+  "letra": "Santo, Santo, Santo Senhor Deus do universo.\nO céu e a terra proclamam a vossa glória.\n\n{refrao}\nHosana nas alturas.\nHosana nas alturas.\n{/refrao}\n\nBendito o que vem em nome do Senhor.\n\n{refrao}\nHosana nas alturas.\nHosana nas alturas.\n{/refrao}",
+  "cifra": "[Intro] D G C F A D\n\nD       A      Bm  F#m     G    D        Em    A\nSanto, Santo, Santo Senhor Deus do universo\n   Bm       A      G  D      Bm   E   A\nO céu e a terra proclamam a vossa glória\n   D    A    Bm  F#m    G    D     A D\nHosana nas alturas. Hosana nas alturas\n F#7          Bm  F#7  Bm  G     A\nBendito o que vem em nome do Senhor\n  D    A      Bm  F#m   G    D    A  D\nHosana nas alturas. Hosana nas alturas",
+  "youtubeId": "ZV0aV40a6iI"
+},
+{
+  "id": "santo_manoel_stenio",
+  "titulo": "Santo",
+  "tipo": "santo",
+  "tempos": ["geral"],
+  "tom": "C",
+  "observacao":"Música de Emanuel Stênio",
+  "letra": "{refrao}\nSanto santo santo\nSenhor Deus do universo\n{/refrao}\n\nCéus e terra proclamam a vossa glória\nHosana nas alturas\nBendito o que vem em nome do Senhor\nHosana nas alturas\n\n{refrao}\nSanto santo santo\nSenhor Deus do universo\n{/refrao}",
+  "cifra": "C     G/B   F  G\nSanto santo santo\nC     G/B        F\nSenhor Deus do universo\n\nBb           F                 C\nCéus e terra proclamam a vossa glória\nBb     F      G\nHosana nas alturas\nBb           F               C\nBendito o que vem em nome do Senhor\nBb    F      G\nHosana nas alturas\n\nC     G/B   F  G\nSanto santo santo\nC     G/B        F\nSenhor Deus do universo",
+  "youtubeId": "J5BV7ac-tFw"
+},
+
+{
+  "id": "amem_tradicional",
+  "titulo": "Amém I",
+  "tipo": "doxologia",
+  "tempos": ["quaresma"],
+  "tom": "D",
+  "audio":"amem_tradicional.mp3",
+  "letra": "Amém, Amém, Amém, Amém, Amém",
+  "cifra": "D   A   Bm   F#m   G   D/F#   Em   A   D\nAmém, amém, a-a-a-amém!\n\nE   B   G#m   C#m   A   E   F#m   B   E\nAmém, amém, a-a-a-amém!"
+},
+{
+  "id": "amem_ta_ta",
+  "titulo": "Amém II",
+  "tipo": "doxologia",
+  "tempos": ["quaresma"],
+  "tom": "Bm",
+  "audio":"amem-ta-ta.mp3",
+  "letra": "Amém, Amém, Amém",
+  "cifra": "Bm      Bm      Em      D      A      Bm\nA-a-a amém, a-a-a-amém, a-amém, a-amém, a-a-a-amém.\n\nEm      D      A      Bm\nA-amém, a-amém, a-a-a-amém."
+},
+{
+  "id": "amem_shalom",
+  "titulo": "Amém",
+  "tipo": "doxologia",
+  "tempos": ["quaresma"],
+  "tom": "Cm",
+  "observacao":"Adaptação Shalom",
+  "audio":"amem_shalom.mp3",
+  "letra": "Amém, Amém, Amém",
+  "cifra": "Cm        G#        D#      A#   B°\nAmém, a-a-mém amém, amém\n\nCm        G#        D#      A#   B°   Cm\nAmém, a-a-mém amém, amém"
+},
+{
+  "id": "amem_hudson",
+  "titulo": "Amém III",
+  "tipo": "doxologia",
+  "tempos": ["quaresma"],
+  "tom": "C",
+  "audio":"amem_hudson.mp3",
+  "observacao":"Melodia Hudson Leite",
+  "letra": "Amém, Amém, Amém",
+  "cifra": "C   Em   Am   Em     F   C   Dm   G   C\nA-a-a-amém, A-a-a-amém, A-a-a-amém, A-a-a-amém\n\nD   F#m   Bm   F#m     G   D   Em   A   D\nA-a-a-amém, A-a-a-amém! A-a-a-amém, A-a-a-amém!"
+},
+{
+  "id": "cordeiro_I_aurora",
+  "titulo": "Cordeiro I",
+  "tipo": "cordeiro",
+  "tempos": ["quaresma"],
+  "tom": "G",
+  "audio":"cordeiro_aurora.mp3",
+  "letra": "Cordeiro de Deus que tirais o pecado do mundo. Tende piedade, tende piedade de nós!\nCordeiro de Deus que tirais o pecado do mundo. Tende piedade, tende piedade de nós!\nCordeiro de Deus que tirais o pecado do mundo. Dai-nos a paz. Dai-nos a vossa paz!",
+  "cifra": "G        Am        D        G\nCordeiro de Deus, que tirais o pecado do mundo\nC  Cm      G   Em   Am   D   G   (D)\nTende piedade, tende piedade de nós.\n\nG        Am        D        G\nCordeiro de Deus, que tirais o pecado do mundo\nC  Cm      G   Em   Am   D   G   (D)\nTende piedade, tende piedade de nós.\n\nG        Am        D        G\nCordeiro de Deus, que tirais o pecado do mundo\nC   Cm      G   Em   Am   D   G\nDai-nos a paz, Dai-nos a Vossa paz."
+},
+{
+  "id": "codeiro_II_solene",
+  "titulo": "Cordeiro II",
+  "tipo": "cordeiro",
+  "tempos": ["quaresma"],
+  "tom": "Dm",
+  "observacao":"Solene",
+  "audio":"cordeiro_solene.mp3",
+  "letra": "Cordeiro de Deus que tirais o pecado do mundo. \nTende piedade piedade de nós!\nCordeiro de Deus que tirais o pecado do mundo. \nTende piedade piedade de nós!\nCordeiro de Deus que tirais o pecado do mundo. \nDai-nos a paz!",
+  "cifra": "Dm            C        Dm\nCordeiro de Deus que tirais o pecado do mundo,\nF       C      Dm\nTende piedade de nós!\n\nDm            C        Dm\nCordeiro de Deus que tirais o pecado do mundo,\nF       C      Dm\nTende piedade de nós!\n\nDm            C        Dm\nCordeiro de Deus que tirais o pecado do mundo,\nBb      C      Dm\nDai-nos a paz!"
+},
+{
+  "id": "oh_cordeiro",
+  "titulo": "Oh cordeiro de Deus",
+  "tipo": "cordeiro",
+  "tempos": ["quaresma"],
+  "tom": "E",
+  "audio":"oh_cordeiro_de_deus.mp3",
+  "letra": "Oh Cordeiro de Deus, que tirais o pecado do mundo,\n\nTende piedade, piedade de nós! (2x)\n\nOh Cordeiro de Deus, que tirais o pecado do mundo,\n\nDai-nos a paz, a vossa paz, Senhor!",
+  "cifra": "E        B        A                E\nOh cordeiro de Deus, que tirais o pecado do mundo,\n\nA        C#m      A        B        C#\nTende de piedade, piedade de nós! (2x)\n\nF#       C#       B                C#\nOh cordeiro de Deus, que tirais o pecado do mundo,\n\nB        D#m      B        C#      F#\nDai-nos a paz, a vossa paz, Senhor!"
+},
+{
+  "id": "cordeiro_voz_do_peregrino",
+  "titulo": "Cordeiro III",
+  "observacao":"Ministerio Voz do Peregrino",
+  "tipo": "cordeiro",
+  "tempos": ["quaresma"],
+  "tom": "D",
+  "audio":"cordeiro_peregrino.mp3",
+  "letra": "Cordeiro de Deus que tirais o pecado do mundo,\nTende piedade de nós.\n\nCordeiro de Deus que tirais o pecado do mundo,\nTende piedade, piedade de nós!\n\nCordeiro de Deus que tirais o pecado do mundo,\nDai-nos a paz, a vossa paz.",
+  "cifra": "D          A        Bm               F#m7\nCordeiro de Deus que tirais o pecado do mundo\nG      D/F#       A\nTende piedade de nós\n\nD          A        Bm               F#m7\nCordeiro de Deus que tirais o pecado do mundo\nG       D/F#     Em        C      A7\nTende piedade, piedade de nós!\n\nD          A        Bm               F#m7\nCordeiro de Deus que tirais o pecado do mundo\nG         D/F#   Em  A   D\nDai-nos a paz, a vossa paz"
+},
+{
+  "id": "oh_cordeiro_II",
+  "titulo": "Oh Cordeiro II",
+  "tipo": "cordeiro",
+  "tempos": ["quaresma"],
+  "tom": "Dm",
+  "observacao":"Música: Sidnei Gama Filho",
+  "letra": "Oh Cordeiro de Deus que tirais o pecado do mundo,\nTende piedade de nós.\n\nOh Cordeiro de Deus que tirais o pecado do mundo,\nTende piedade de nós.\n\nOh Cordeiro de Deus que tirais o pecado do mundo,\nDai-nos a vossa paz.",
+  "cifra": "Dm            C            Dm\nOh Cordeiro de Deus que tirais o pecado do mundo\n\nG             Dm          C        Dm\nTende piedade de nós, piedade de nós(2x)\n\nDm            C            Dm\nOh Cordeiro de Deus que tirais o pecado do mundo\n\nG             Dm        C        Dm\nDai-nos a paz, a vossa paz",
+  "youtubeId": "hUvqXiiqmHk"
+},
+{
+  "id": "cordeiro_matheus_assuncao",
+  "titulo": "Cordeiro III",
+  "tipo": "cordeiro",
+  "tempos": ["quaresma"],
+  "tom": "E",
+  "observacao":"Composição Matheus Assunção",
+  "letra": "Cordeiro de Deus que tirais o pecado do mundo,\nTende piedade, tende piedade de nós.\n\nCordeiro de Deus que tirais o pecado do mundo,\nTende piedade, tende piedade de nós.\n\nCordeiro de Deus que tirais o pecado do mundo,\nDai-nos a vossa paz, dai-nos a vossa paz!",
+  "cifra": "E            G#m           A\nCordeiro de Deus que tirais o pecado do mundo,\nF#m        B         E\nTende piedade, tende piedade de nós.\n\nE            G#m           A\nCordeiro de Deus que tirais o pecado do mundo,\nF#m        B         E\nTende piedade, tende piedade de nós.\n\nE            G#m           A\nCordeiro de Deus que tirais o pecado do mundo,\nF#m        B         E\nDai-nos a vossa paz, dai-nos a vossa paz!",
+  "youtubeId": "s4zVuI2Ex5U"
+}
+
+]

@@ -1,0 +1,70 @@
+{
+  "tempo": "semana_santa",
+  "titulo": "Sexta-feira da Paixão do Senhor",
+  "chaveLiturgia": "sexta-feira-santa",
+  "partes": [
+    {
+      "id": "liturgia_palavra",
+      "nome": "Liturgia da Palavra"
+    },
+    {
+      "id": "aclamacao",
+      "nome": "Aclamação",
+      "musicas": [
+        "salve_o_cristo"
+      ]
+    },
+{
+  "id": "oracao_universal",
+  "nome": "Oração Universal",
+  "partes": [
+    {
+      "id": "oracao_universal_texto",
+      "nome": "Oração Universal",
+      "texto": "I. Pela Santa Igreja\n\nOremos, irmãos e irmãs, pela santa Igreja de Deus, para que o Senhor lhe dê a paz, a una e a proteja por toda a terra, concedendo-nos uma vida calma e tranquila, para sua glória.\n\n(Reza-se em silêncio)\n\nDeus eterno e todo-poderoso, que em Cristo revelastes a vossa glória a todas as nações, velai sobre a obra do vosso amor. Que a vossa Igreja, espalhada por todo o mundo, permaneça firme na fé para proclamar o vosso nome. Por Cristo, nosso Senhor.\n\nII. Pelo Papa\n\nOremos pelo nosso Papa N., para que Deus nosso Senhor, que o escolheu para o episcopado, o conserve são e salvo à frente da sua Igreja, governando o povo de Deus.\n\n(Reza-se em silêncio)\n\nDeus eterno e todo-poderoso, que tudo governais com sabedoria, atendei com bondade as nossas preces e protegei o Papa que escolhestes, para que o povo cristão, governado por vós, cresça na fé. Por Cristo, nosso Senhor.\n\nIII. Por todos os ministros e fiéis\n\nOremos pelo nosso bispo N., por todos os bispos, presbíteros e diáconos da Igreja e por todo o povo fiel.\n\n(Reza-se em silêncio)\n\nDeus eterno e todo-poderoso, que santificais e governais todo o vosso povo, ouvi as nossas súplicas e fazei que os ministros e fiéis vos sirvam com fidelidade. Por Cristo, nosso Senhor.\n\nIV. Pelos catecúmenos\n\nOremos pelos catecúmenos, para que Deus nosso Senhor abra seus corações e lhes conceda a graça do batismo.\n\n(Reza-se em silêncio)\n\nDeus eterno e todo-poderoso, que fazeis crescer a vossa Igreja, dai aos catecúmenos o novo nascimento pelo Batismo, para que sejam contados entre os vossos filhos. Por Cristo, nosso Senhor.\n\nV. Pela unidade dos cristãos\n\nOremos por todos os irmãos e irmãs que creem em Cristo, para que Deus nosso Senhor os reúna e conserve na unidade da sua Igreja.\n\n(Reza-se em silêncio)\n\nDeus eterno e todo-poderoso, que reunis os vossos filhos dispersos, olhai com bondade o rebanho do vosso Filho, para que todos os que foram consagrados pelo Batismo formem uma só família. Por Cristo, nosso Senhor.\n\nVI. Pelos judeus\n\nOremos pelos judeus, aos quais Deus falou em primeiro lugar, para que cresçam no amor do seu nome e na fidelidade à sua aliança.\n\n(Reza-se em silêncio)\n\nDeus eterno e todo-poderoso, que fizestes vossas promessas a Abraão e à sua descendência, ouvi as preces da vossa Igreja, para que o povo da primeira aliança alcance a plenitude da redenção. Por Cristo, nosso Senhor.\n\nVII. Pelos que não creem em Cristo\n\nOremos pelos que não creem em Cristo, para que, iluminados pelo Espírito Santo, possam entrar no caminho da salvação.\n\n(Reza-se em silêncio)\n\nDeus eterno e todo-poderoso, concedei aos que não creem em Cristo viverem com sinceridade, para que encontrem a verdade, e a nós concedei crescer na caridade. Por Cristo, nosso Senhor.\n\nVIII. Pelos que não creem em Deus\n\nOremos pelos que não reconhecem a Deus, para que, buscando a verdade, cheguem a encontrá-lo.\n\n(Reza-se em silêncio)\n\nDeus eterno e todo-poderoso, criastes todos os seres humanos para que vos procurem e, encontrando-vos, tenham a vida. Concedei que todos reconheçam os sinais do vosso amor. Por Cristo, nosso Senhor.\n\nIX. Pelos governantes\n\nOremos por todos os governantes, para que Deus nosso Senhor dirija suas mentes e corações segundo a sua vontade.\n\n(Reza-se em silêncio)\n\nDeus eterno e todo-poderoso, em vossas mãos estão os corações humanos, concedei aos governantes a sabedoria para promover a paz e o bem comum. Por Cristo, nosso Senhor.\n\nX. Pelos que sofrem\n\nOremos por todos os que sofrem: os doentes, os pobres, os prisioneiros e todos os que passam necessidade.\n\n(Reza-se em silêncio)\n\nDeus eterno e todo-poderoso, consolação dos aflitos e força dos que sofrem, ouvi o clamor dos que vos invocam e concedei-lhes o auxílio da vossa misericórdia. Por Cristo, nosso Senhor."
+}
+  ]
+},
+{
+  "id": "cantos_adoracao_cruz",
+  "nome": "Adoração da Cruz",
+  "musicas": [
+    "eis_o_lenho",
+    "belissimo_esposo",
+    "ninguem_te_ama_como_eu"
+  ]
+},
+    {
+      "id": "comunhao",
+      "nome": "Comunhão",
+      "musicas": [
+        "prova_de_amor",
+        "eu_vim_para_que_todos_tenham_vida",
+        "eu_quis_comer"
+      ]
+    },
+
+    {
+  "id": "cantos_adoracao_cruz2",
+  "nome": "Cantos Adoração da Cruz",
+  "musicas": [
+    "lamentos_do_senhor",
+    "diario_de_maria",
+    "na_cruz_com_cristo",
+    "foi_no_calvario",
+    "por_amor",
+    "coracao_de_mae",
+    "quem_podera",
+    "chagas_abertas",
+    "amigo_da_cruz",
+    "se_o_teu_sangue_curar",
+    "via_sacra",
+    "eu_sou_o_que_sou",
+    "estou_aqui", 
+    "meu_chamado"
+
+  ]
+}
+
+  ]
+}
