@@ -202,12 +202,12 @@ function imprimirCard(card) {
 }
 
 const chaveDomingo = document.body.dataset.domingo;
-const caminhoDomingo = `data/${chaveDomingo}.json`;
+const caminhoDomingo = `./data/${chaveDomingo}.json`;
 
 Promise.all([
   fetch(caminhoDomingo).then(r => r.json()),
-  fetch("data/musicas.json").then(r => r.json()),
-  fetch("data/fixas.json").then(r => r.json())
+  fetch("./data/musicas.json").then(r => r.json()),
+  fetch("./data/fixas.json").then(r => r.json())
 ])
   .then(([domingo, musicas, fixas]) => {
 
