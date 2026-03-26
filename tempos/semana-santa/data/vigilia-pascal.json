@@ -23,21 +23,10 @@
       "id": "terceira",
       "nome": "Terceira parte: Liturgia batismal",
       "musicas":[
-        "banhados_em_cristo",
-      "aleluia",
-      "a_nos_descei"   
-       ]
-    },
-
-    {
-      "id": "entrada",
-      "nome": "Canto de Entrada",
-       "musicas": [
-        "o_senhor_ressurgiu",
-        "deus_enviou",
-        "por_sua_morte",
-        "novo_sol_brilhou",
-        "ressuscitou"
+      "banhados_em_cristo",
+      "aleluia_batismo",
+      "a_nos_descei",
+      "fontes_do_senhor"  
        ]
     },
 
@@ -55,17 +44,6 @@
       ]
     },
 
-    {
-      "id": "aclamacao",
-      "nome": "Aclamação",
-      "musicas": [
-        "Aleluia, Aleluia, Aleluia"
-      ]
-    },
-    {
-      "id": "oracao_fieis",
-      "nome": "Oração dos Fiéis"
-    },
     {
       "id": "ofertorio",
       "nome": "Ofertório",
@@ -90,18 +68,20 @@
         "santo_i_adaptado"
       ]
     },
+
     {
       "id": "oracao_eucaristica",
       "nome": "Oração Eucarística",
       "partes": [
            {
       "id": "oe3",
-      "nome": "Oração Eucarística III",
-      "observacao": "Durante todo o tempo da Quaresma será utilizada a Oração Eucarística III com o Mistério da Fé: 'para a salvação do mundo'.",
-      "texto": "Nova Edição\nTexto Oficial da Terceira Edição Típica do Missal Romano\n(1ª Edição, 2023)\n\nPe: O Senhor esteja convosco.\nT: Ele está no meio de nós.\nPe: Corações ao alto.\nT: O nosso coração está em Deus.\nPe: Demos graças ao Senhor, nosso Deus.\nT: É nosso dever e nossa salvação.\n\nPe: Na verdade, vós sois Santo, ó Deus do universo, e tudo o que criastes proclama o vosso louvor, porque, por Jesus Cristo, vosso Filho e Senhor nosso, e pela força do Espírito Santo, dais vida e santidade a todas as coisas e não cessais de reunir para vós um povo que vos ofereça em toda parte, do nascer ao pôr do sol, um sacrifício perfeito.\n\nPe: Por isso, ó Pai, nós vos suplicamos: santificai pelo Espírito Santo as oferendas que vos apresentamos para serem consagradas a fim de que se tornem o Corpo † e o Sangue de vosso Filho, nosso Senhor Jesus Cristo, que nos mandou celebrar estes mistérios.\nT: Enviai o vosso Espírito Santo!\n\nPe: Na noite em que ia ser entregue, Jesus tomou o pão, pronunciou a bênção de ação de graças, partiu e o deu a seus discípulos, dizendo:\nTOMAI, TODOS, E COMEI: ISTO É O MEU CORPO, QUE SERÁ ENTREGUE POR VÓS.\n\nPe: Do mesmo modo, ele tomou em suas mãos o cálice com o vinho, deu-vos graças novamente e o deu a seus discípulos, dizendo:\nTOMAI, TODOS, E BEBEI: ESTE É O CÁLICE DO MEU SANGUE, O SANGUE DA NOVA E ETERNA ALIANÇA, QUE SERÁ DERRAMADO POR VÓS E POR TODOS, PARA REMISSÃO DOS PECADOS. FAZEI ISTO EM MEMÓRIA DE MIM.\n\nMistério da fé para a salvação do mundo!\nT: Salvador do mundo, salvai-nos, vós que nos libertastes pela cruz e ressurreição.\n\nPe: Celebrando agora, ó Pai, o memorial da paixão redentora do vosso Filho, da sua gloriosa ressurreição e ascensão ao céu, e enquanto esperamos sua nova vinda, nós vos oferecemos em ação de graças este sacrifício vivo e santo.\nT: Aceitai, ó Senhor, a nossa oferta!\n\nPe: Olhai com bondade a oblação da vossa Igreja e reconhecei nela o sacrifício que nos reconciliou convosco; concedei que, alimentando-nos com o Corpo e o Sangue do vosso Filho, repletos do Espírito Santo, nos tornemos em Cristo um só corpo e um só espírito.\nT: O Espírito nos una num só corpo!\n\nPe: Que o mesmo Espírito faça de nós uma eterna oferenda para alcançarmos a herança com os vossos eleitos: a santíssima Virgem Maria, Mãe de Deus, São José, seu esposo, os vossos santos Apóstolos e gloriosos Mártires e todos os Santos, que não cessam de interceder por nós na vossa presença.\nT: Fazei de nós uma perfeita oferenda!\n\nPe: Nós vos suplicamos, Senhor, que este sacrifício da nossa reconciliação estenda a paz e a salvação ao mundo inteiro. Confirmai na fé e na caridade a vossa Igreja que caminha neste mundo.\nT: Lembrai-vos, ó Pai, da vossa Igreja!\n\nPe: Acolhei com bondade no vosso reino os nossos irmãos e irmãs que partiram desta vida e todos os que morreram na vossa amizade. Unidos a eles, esperamos também nós saciar-nos eternamente da vossa glória, por Cristo, Senhor nosso.\n\nPe: Por Cristo, com Cristo, e em Cristo, a vós, Deus Pai todo-poderoso, na unidade do Espírito Santo, toda honra e toda glória, por todos os séculos dos séculos.\nT: Amém!"
+      "nome": "Oração Eucarística I",
+      "observacao": "Mistério da Fé!.",
+      "texto": "Pe. O Senhor esteja convosco.\n\n<b>T: Ele está no meio de nós.</b>\n\nPe. Corações ao alto.\n\n<b>T: O nosso coração está em Deus.</b>\n\nPe. Demos graças ao Senhor, nosso Deus.\n\n<b>T: É nosso dever e nossa salvação.</b>\n\nSegue-se, conforme as rubricas, o prefácio, com a conclusão: Santo, Santo, Santo.\n\nPe: Pai de misericórdia, a quem sobem nossos louvores, suplicantes, vos rogamos e pedimos por Jesus Cristo, vosso Filho e Senhor nosso, que aceiteis e abençoeis † estes dons, estas oferendas, este sacrifício puro e santo, que oferecemos, antes de tudo, pela vossa Igreja santa e católica: concedei-lhe paz e proteção, unindo-a num só corpo e governando-a por toda a terra, em comunhão com o vosso servo o Papa N., o nosso Bispo N., e todos os que guardam a fé católica que receberam dos Apóstolos.\n\n<b>T: Abençoai nossa oferenda, ó Senhor!</b>\n\nPe: Lembrai-vos, ó Pai, dos vossos filhos e filhas N. N. e de todos os que circundam este altar, dos quais conheceis a fé e a dedicação ao vosso serviço. Por eles nós vos oferecemos e também eles vos oferecem este sacrifício de louvor por si e por todos os seus, e elevam a vós as suas preces, Deus eterno, vivo e verdadeiro, para alcançar o perdão de suas faltas, a segurança em suas vidas e a salvação que esperam.\n\n<b>T: Lembrai-vos, ó Pai, de vossos filhos!</b>\n\nPe: Em comunhão com toda a Igreja, celebramos em primeiro lugar a memória da Mãe de nosso Deus e Senhor Jesus Cristo, a gloriosa sempre Virgem Maria, a de seu esposo São José, e também a dos Santos Apóstolos e Mártires: Pedro e Paulo, André, (Tiago e João, Tomé, Tiago e Filipe, Bartolomeu e Mateus, Simão e Tadeu, Lino, Cleto, Clemente, Sisto, Cornélio e Cipriano, Lourenço e Crisógono, João e Paulo, Cosme e Damião), e todos os vossos Santos. Por seus méritos e preces concedei-nos sem cessar a vossa proteção. (Por Cristo, nosso Senhor. Amém).\n\n<b>T: Em comunhão com os vossos Santos vos louvamos!</b>\n\nPe: Em comunhão com toda a Igreja, celebramos o dia santíssimo da Ressurreição de nosso Senhor Jesus Cristo segundo a carne.\n\nPe: Aceitai, ó Pai, com bondade, a oblação dos vossos servos e de toda a vossa família; nós a oferecemos também por aqueles que vos dignastes regenerar pela água e pelo Espírito Santo, concedendo-lhes a remissão de todos os pecados. Dai aos nossos dias a vossa paz, livrai-nos da condenação eterna e acolhei-nos entre os vossos eleitos. (Por Cristo, nosso Senhor. Amém)\n\nPe: Dignai-vos, ó Pai, aceitar, abençoar e santificar estas oferendas, recebei-as como sacrifício espiritual perfeito, a fim de que se tornem para nós o Corpo e † o Sangue de vosso amado Filho, nosso Senhor Jesus Cristo.\n\n<b>T: Enviai o vosso Espírito Santo!</b>\n\nPe: Na véspera de sua paixão, ele tomou o pão em suas santas e veneráveis mãos, elevou os olhos ao céu, a vós, ó Pai, todo-poderoso, pronunciou a bênção de ação de graças, partiu o pão e o deu a seus discípulos, dizendo:\nTOMAI, TODOS, E COMEI: ISTO É O MEU CORPO, QUE SERÁ ENTREGUE POR VÓS.\n\nPe: Do mesmo modo, no fim da Ceia, toma o cálice nas mãos e, mantendo-o um pouco elevado acima do altar, prossegue: ele tomou este precioso cálice em suas santas e veneráveis mãos, pronunciou novamente a bênção de ação de graças e o deu a seus discípulos, dizendo:\n\nTOMAI, TODOS, E BEBEI: ESTE É O CÁLICE DO MEU SANGUE, O SANGUE DA NOVA E ETERNA ALIANÇA, QUE SERÁ DERRAMADO POR VÓS E POR TODOS PARA REMISSÃO DOS PECADOS. FAZEI ISTO EM MEMÓRIA DE MIM.\n\nMistério da fé!\n\n<b>T: Anunciamos, Senhor, a vossa morte e proclamamos a vossa ressurreição. Vinde, Senhor Jesus!</b>\n\nOu\nMistério da fé e do amor!\n\n<b>T: Todas as vezes que comemos deste pão e bebemos deste cálice, anunciamos, Senhor, a vossa morte, enquanto esperamos a vossa vinda!</b>\n\nOu\nMistério da fé para a salvação do mundo!\n\n<b>T: Salvador do mundo, salvai-nos, vós que nos libertastes pela cruz e ressurreição.</b>\n\nPe: Celebrando, pois, a memória da bem-aventurada paixão do vosso Filho, da sua ressurreição dentre os mortos e gloriosa ascensão aos céus, nós, vossos servos, e também vosso povo santo, vos oferecemos, ó Pai, dentre os bens que nos destes, o sacrifício puro, santo e imaculado, Pão santo da vida eterna e Cálice da perpétua salvação.\n\nRecebei, ó Pai, com olhar benigno, esta oferta, como recebestes os dons do justo Abel, o sacrifício de nosso patriarca Abraão e a oblação pura e santa do sumo sacerdote Melquisedeque.\n\n<b>T: Aceitai, ó Senhor, a nossa oferta!</b>\n\nPe: Suplicantes, vos pedimos, ó Deus onipotente, que esta nossa oferenda seja levada à vossa presença, no altar do céu, pelas mãos do vosso santo Anjo, para que todos nós, participando deste altar, pela comunhão do santíssimo Corpo e Sangue do vosso Filho, sejamos repletos de todas as graças e bênçãos do céu. (Por Cristo, nosso Senhor. Amém)\n\n<b>T: O Espírito nos una num só corpo!</b>\n\nPe: Lembrai-vos, ó Pai, dos vossos filhos e filhas N. N. que nos precederam com o sinal da fé e dormem o sono da paz. A eles, e a todos os que descansam no Cristo, concedei o repouso, a luz e a paz. (Por Cristo, nosso Senhor. Amém)\n\n<b>T: Concedei-lhes, ó Senhor, a luz eterna!</b>\n\nPe: E a todos nós pecadores, que esperamos na vossa infinita misericórdia, concedei, não por nossos méritos, mas por vossa bondade, o convívio dos Apóstolos e Mártires: João Batista e Estêvão, Matias e Barnabé, (Inácio, Alexandre, Marcelino e Pedro, Felicidade e Perpétua, Águeda e Luzia, Inês, Cecília, Anastácia) e de todos os vossos Santos. Por Cristo, nosso Senhor.\n\nPe: Por ele não cessais de criar e santificar, vivificar, abençoar estes bens e distribuí-los entre nós.\n\nPe: Por Cristo, com Cristo, e em Cristo, a vós, Deus Pai todo-poderoso, na unidade do Espírito Santo, toda a honra e toda a glória, por todos os séculos dos séculos.\n\n<b>T: Amém.</b>"
 }
       ]
     },
+
     {
       "id": "doxologia",
       "nome": "Doxologia",
@@ -131,7 +111,6 @@
       "nome": "Comunhão",
       "musicas":[
         "e_quando_amanhecer",
-        "preciosa_sao_as_horas",
         "sacrificio_de_amor",
         "tu_nos_atraistes"
       ]
@@ -140,12 +119,22 @@
       "id": "pos",
       "nome": "Pós Comunhão",
       "musicas":[
-        "preciosa_sao_as_horas"
+        "preciosa_sao_as_horas",
+        "oh_hostia_santa",
+        "alma_de_cristo",
+        "alma_de_cristo_shalom",
+        "alma_de_cristo_nelsinho"
       ]
     },
     {
       "id": "final",
-      "nome": "Canto Final"
+      "nome": "Final",
+      "musicas":[
+        "deus_enviou",
+        "por_sua_morte",
+        "novo_sol_brilhou",
+        "ressuscitou"
+      ]
     }
   ]
 }
